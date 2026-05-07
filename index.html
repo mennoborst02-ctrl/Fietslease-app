@@ -181,30 +181,22 @@ sb.auth.onAuthStateChange(async (event, session) => {
 });
 
 async function laadContracten() {
-  toonLoader('Contracten ophalen...');
   try {
-    const { data, error } = await sb.from('contracten')
-      .select('*')
-      .eq('email', USER.email)
-      .order('startdatum', {ascending: false});
-    
+    // 5 seconden timeout — valt terug op demo data als Supabase te lang wacht
+    const result = await Promise.race([
+      sb.from('contracten').select('*').eq('email', USER.email).order('startdatum', {ascending: false}),
+      new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 5000))
+    ]);
+    const { data, error } = result;
     if (error) throw error;
-    
-    if (data && data.length > 0) {
-      CONTRACTEN = data;
-    } else {
-      // Demo modus als geen data gevonden
-      CONTRACTEN = DEMO;
-    }
-    IDX = 0;
-    S.sc = 'home'; S.stk = [];
-    verbergLoader();
-    R();
+    CONTRACTEN = (data && data.length > 0) ? data : DEMO;
   } catch(e) {
-    console.error('Fout bij ophalen contracten:', e);
+    // Tabel bestaat nog niet of timeout — gebruik demo data
     CONTRACTEN = DEMO;
+  } finally {
     IDX = 0;
-    S.sc = 'home'; S.stk = [];
+    S.sc = 'home';
+    S.stk = [];
     verbergLoader();
     R();
   }
