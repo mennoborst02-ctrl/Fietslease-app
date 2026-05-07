@@ -180,9 +180,6 @@ sb.auth.onAuthStateChange(async (event, session) => {
   }
 });
 
-// Toon direct loginscherm — wacht niet op Supabase
-R();
-
 async function laadContracten() {
   toonLoader('Contracten ophalen...');
   try {
@@ -613,6 +610,7 @@ function scPro() {
 /* ============================================
    START
    ============================================ */
+R(); // Toon loginscherm direct bij opstarten
 setInterval(()=>{const e=document.getElementById('st');if(e){const n=new Date();e.textContent=`${n.getHours()}:${('0'+n.getMinutes()).slice(-2)}`;} },30000);
 
 if('serviceWorker' in navigator) {
