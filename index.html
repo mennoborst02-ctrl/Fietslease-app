@@ -119,7 +119,7 @@ body{display:flex;justify-content:center;align-items:flex-start;background:#E8E4
       <svg width="26" height="13" viewBox="0 0 26 13" fill="none"><rect x=".5" y=".5" width="22" height="12" rx="3" stroke="var(--blk)" stroke-opacity=".25"/><rect x="2" y="2" width="19" height="9" rx="2" fill="var(--blk)"/><path d="M24 4.5v4c1.2-.7 1.2-3.3 0-4z" fill="var(--blk)" opacity=".4"/></svg>
     </div>
   </div>
-  <div class="load" id="loader"><div class="spin"></div><div style="font-family:var(--fh);font-size:13px;font-weight:700;color:rgba(239,239,239,.5)" id="loadtxt">Laden...</div></div>
+  <div class="load off" id="loader"><div class="spin"></div><div style="font-family:var(--fh);font-size:13px;font-weight:700;color:rgba(239,239,239,.5)" id="loadtxt">Laden...</div></div>
   <div class="modal-bg off" id="contract-modal" onclick="closeModal(event)">
     <div class="modal" onclick="event.stopPropagation()">
       <div class="modal-t">Kies een contract</div>
@@ -169,13 +169,19 @@ const S = {sc:'login', p:{}, stk:[], authMode:'login', invFilter:'all', faqCat:'
 sb.auth.onAuthStateChange(async (event, session) => {
   if (session?.user) {
     USER = session.user;
+    // Toon loader alleen als we nog op loginscherm zijn
+    if (S.sc === 'login') toonLoader('Contracten ophalen...');
     await laadContracten();
   } else {
     USER = null;
     CONTRACTEN = [];
+    verbergLoader();
     if(S.sc !== 'login') { S.sc='login'; S.stk=[]; R(); }
   }
 });
+
+// Toon direct loginscherm — wacht niet op Supabase
+R();
 
 async function laadContracten() {
   toonLoader('Contracten ophalen...');
@@ -607,7 +613,6 @@ function scPro() {
 /* ============================================
    START
    ============================================ */
-R();
 setInterval(()=>{const e=document.getElementById('st');if(e){const n=new Date();e.textContent=`${n.getHours()}:${('0'+n.getMinutes()).slice(-2)}`;} },30000);
 
 if('serviceWorker' in navigator) {
