@@ -80,6 +80,7 @@ body{display:flex;justify-content:center;align-items:flex-start;background:#E8E4
 .load.off{display:none}
 .spin{width:40px;height:40px;border:3px solid rgba(239,239,239,.15);border-top-color:var(--g);border-radius:50%;animation:sp .8s linear infinite}
 @keyframes sp{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.4}}
 .sw{background:var(--wh);border:1px solid var(--b1);border-radius:14px;padding:14px 16px;margin-bottom:14px;display:flex;align-items:center;justify-content:space-between;cursor:pointer}
 .sw:active{background:var(--gsel)}
 .sw-l{flex:1}.sw-t{font-size:13px;font-weight:700;color:var(--blk);font-family:var(--fh)}.sw-s{font-size:11px;font-weight:500;color:var(--gr);margin-top:2px}
@@ -138,6 +139,9 @@ body{display:flex;justify-content:center;align-items:flex-start;background:#E8E4
    ============================================ */
 const SB_URL = 'https://puzxtiqtoipsqhavocez.supabase.co';
 const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB1enh0aXF0b2lwc3FoYXZvY2V6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgxNDY3MzksImV4cCI6MjA5MzcyMjczOX0.hvHNl9tHyoip3U2OLbXsjAza6U5Uh0vgHCDMTmlsNJc';
+
+/* ── Anthropic API key — vul hier jouw key in ── */
+const ANTHROPIC_KEY = '';
 const sb = window.supabase.createClient(SB_URL, SB_KEY);
 
 /* ============================================
@@ -161,7 +165,7 @@ const DEMO = [{
 let CONTRACTEN = [];
 let IDX = 0; // actief contract index
 let USER = null;
-const S = {sc:'login', p:{}, stk:[], authMode:'login', invFilter:'all', faqCat:'all'};
+const S = {sc:'login', p:{}, stk:[], authMode:'login', invFilter:'all', faqTab:'faq', faqCat:'all'};
 
 /* ============================================
    SUPABASE AUTH
@@ -543,10 +547,19 @@ const DEMO_FAQ = [
   {id:'f10',cat:'service',vraag:'Wat valt onder onderhoud?',antwoord:'Regulier onderhoud zoals beurten, bandenvervaging en remafstelling valt volledig onder uw lease. Geen extra kosten voor normaal gebruik.'}
 ];
 function scFaq() {
+  if(S.faqTab==='chat') return scChat();
   const cats=[{k:'all',l:'Alle'},{k:'contract',l:'Contract'},{k:'verzekering',l:'Verzekering'},{k:'service',l:'Service'}];
   const faqs=S.faqCat==='all'?DEMO_FAQ:DEMO_FAQ.filter(f=>f.cat===S.faqCat);
-  return `<div class="hdr"><div class="hdrt">FAQ</div></div>
+  return `<div class="hdr"><div class="hdrt">FAQ & Assistent</div></div>
 <div style="padding:16px 18px;background:var(--bg)">
+  <button onclick="S.faqTab='chat';R()" style="width:100%;display:flex;gap:12px;align-items:center;background:var(--blk);border-radius:14px;padding:14px 16px;border:2px solid #3a3c3d;cursor:pointer;margin-bottom:16px;text-align:left;-webkit-tap-highlight-color:transparent">
+    <div style="width:8px;height:8px;border-radius:50%;background:var(--g);flex-shrink:0;animation:pulse 2s infinite"></div>
+    <div style="flex:1">
+      <div style="font-family:var(--fh);font-size:14px;font-weight:700;color:var(--wh);margin-bottom:2px">AI-assistent</div>
+      <div style="font-size:12px;font-weight:500;color:rgba(239,239,239,.45)">Stel een vraag over uw contract of lease</div>
+    </div>
+    <svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="rgba(239,239,239,.4)" stroke-width="2" stroke-linecap="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg>
+  </button>
   <div class="pills" style="margin-bottom:14px">${cats.map(c=>`<button class="pill ${S.faqCat===c.k?'on':''}" onclick="S.faqCat='${c.k}';R()">${c.l}</button>`).join('')}</div>
   <div style="background:var(--wh);border-radius:14px;border:1px solid var(--b1);padding:0 16px">
     ${faqs.map(f=>`<div class="faqit" data-id="${f.id}"><div class="faqq" onclick="tglFaq('${f.id}')"><span class="faqq-t">${f.vraag}</span><svg viewBox="0 0 15 14"><path d="M2 5l5.5 5.5 5.5-5.5"/></svg></div><div class="faqa">${f.antwoord}</div></div>`).join('')}
@@ -602,6 +615,103 @@ function scPro() {
   <button style="background:var(--reb);color:var(--re);border:2px solid #FECACA;border-radius:12px;padding:14px 20px;font-size:14px;font-weight:700;width:100%;margin-top:18px;cursor:pointer;font-family:var(--fh)" onclick="uitloggen()">Uitloggen</button>
   <div style="height:14px"></div>
 </div>`;
+}
+
+
+/* ============================================
+   CHAT
+   ============================================ */
+let chatHistory = [{r:'bot', t:'Hallo! Ik ben de assistent van Fietslease Holland. Stel gerust een vraag over uw contract, verzekering of service.'}];
+
+function scChat() {
+  const c = C();
+  const init = c.klantnaam !== 'Jan van den Berg' ? c.klantnaam.split(' ')[0] : '';
+  return `<div class="hdr">
+    <button class="bk" onclick="S.faqTab='faq';R()"><svg viewBox="0 0 16 16"><path d="M10 4l-6 4 6 4"/></svg></button>
+    <div class="hdrt">AI-assistent</div>
+    <div style="width:8px;height:8px;border-radius:50%;background:var(--g);animation:pulse 2s infinite"></div>
+  </div>
+  <div id="chatb" style="flex:1;overflow-y:auto;background:var(--bg);padding:16px;display:flex;flex-direction:column;gap:10px">
+    ${chatHistory.map(m => m.r==='typing' ?
+      `<div class="cm bot"><div class="cav" style="background:var(--gsel);color:var(--g)">AI</div><div class="cb"><div style="display:flex;gap:3px;padding:2px 0"><div class="tyd"></div><div class="tyd"></div><div class="tyd"></div></div></div></div>` :
+      `<div class="cm ${m.r==='user'?'u':'bot'}">
+        ${m.r==='bot'?`<div class="cav" style="background:var(--gsel);color:var(--g)">AI</div>`:''}
+        <div class="cb">${m.t}</div>
+        ${m.r==='user'?`<div class="cav" style="background:var(--g);color:#fff">${init||'U'}</div>`:''}
+      </div>`
+    ).join('')}
+  </div>
+  <div style="display:flex;gap:8px;padding:10px 16px 14px;border-top:1.5px solid var(--b2);background:var(--wh)">
+    <input class="ci" id="ci" placeholder="Stel uw vraag…" onkeydown="if(event.key==='Enter')sendChat()"/>
+    <button class="csnd" onclick="sendChat()">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round"><path d="M22 2L11 13"/><path d="M22 2L15 22l-4-9-9-4 20-7z"/></svg>
+    </button>
+  </div>`;
+}
+
+function iChat() {
+  const i = document.getElementById('ci');
+  if(i) i.focus();
+  const m = document.getElementById('chatb');
+  if(m) m.scrollTop = m.scrollHeight;
+}
+
+async function sendChat() {
+  const i = document.getElementById('ci');
+  if(!i) return;
+  const txt = i.value.trim();
+  if (!txt) return;
+  i.value = '';
+
+  chatHistory.push({r:'user', t:txt}, {r:'typing', t:''});
+  R();
+  setTimeout(()=>{const m=document.getElementById('chatb');if(m)m.scrollTop=m.scrollHeight;},60);
+
+  if(!ANTHROPIC_KEY) {
+    // Fallback als geen API key ingesteld
+    chatHistory = chatHistory.filter(m=>m.r!=='typing');
+    const l = txt.toLowerCase();
+    let a = 'Bel ons voor een antwoord: 085-9022111 (ma–vr 9–17u).';
+    if(l.includes('contract')) a = 'Uw contract ' + C().contractnummer + ' loopt tot ' + C().einddatum + '. €' + C().maandbedrag + '/maand.';
+    if(l.includes('stel')||l.includes('diefs')) a = 'Doe aangifte bij de politie en meld het via de Service tab. Wij regelen een vervangend vervoermiddel.';
+    if(l.includes('pech')) a = 'Bel direct 085-9022111. U bent gedekt via de pechhulpverzekering.';
+    if(l.includes('einde')||l.includes('stop')) a = 'Wij nemen 3 maanden voor de einddatum contact op. Tussentijds stoppen kan, maar er gelden afkoopkosten.';
+    chatHistory.push({r:'bot', t:a});
+    R();
+    setTimeout(()=>{const m=document.getElementById('chatb');if(m)m.scrollTop=m.scrollHeight;},80);
+    return;
+  }
+
+  try {
+    const c = C();
+    const faqTekst = DEMO_FAQ.map(f => 'V: ' + f.vraag + '\nA: ' + f.antwoord).join('\n\n');
+    const systeem = 'Jij bent de klantenservice-assistent van Fietslease Holland. Beantwoord vragen vriendelijk en beknopt in het Nederlands (max 3 zinnen). Gebruik ALLEEN de FAQ en klantgegevens hieronder. Ken je het antwoord niet, verwijs naar 085-9022111 of klantenservice@fietsleaseholland.nl (ma-vr 9-17u). Verzin nooit gegevens.\n\nKLANTGEGEVENS:\nNaam: ' + c.klantnaam + '\nContract: ' + c.contractnummer + '\nFiets: ' + c.fietsmerk + ' ' + c.fietsmodel + '\nMaandbedrag: \u20ac' + c.maandbedrag + '\nEinddatum: ' + c.einddatum + '\n\nFAQ:\n' + faqTekst;
+
+    const res = await fetch('https://api.anthropic.com/v1/messages', {
+      method: 'POST',
+      headers: {
+        'Content-Type': 'application/json',
+        'x-api-key': ANTHROPIC_KEY,
+        'anthropic-version': '2023-06-01',
+        'anthropic-dangerous-direct-browser-access': 'true'
+      },
+      body: JSON.stringify({
+        model: 'claude-haiku-4-5-20251001',
+        max_tokens: 400,
+        temperature: 0,
+        system: systeem,
+        messages: [{role:'user', content: txt}]
+      })
+    });
+    const data = await res.json();
+    chatHistory = chatHistory.filter(m=>m.r!=='typing');
+    chatHistory.push({r:'bot', t: data.content?.[0]?.text || 'Bel ons: 085-9022111 (ma–vr 9–17u).'});
+  } catch(e) {
+    chatHistory = chatHistory.filter(m=>m.r!=='typing');
+    chatHistory.push({r:'bot', t:'Er is een fout opgetreden. Bel ons op 085-9022111 (ma–vr 9–17u).'});
+  }
+  R();
+  setTimeout(()=>{const m=document.getElementById('chatb');if(m)m.scrollTop=m.scrollHeight;},80);
 }
 
 /* ============================================
