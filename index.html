@@ -349,7 +349,7 @@ function scHome() {
 <div style="background:var(--wh);border-bottom:1.5px solid var(--b2);padding:16px 20px 18px">
   <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:14px">
     <svg viewBox="0 0 200 56" fill="none" xmlns="http://www.w3.org/2000/svg" style="height:44px;display:block"><rect x="0" y="0" width="5" height="56" rx="2" fill="#669933"/><text x="14" y="24" font-family="Poppins,sans-serif" font-weight="800" font-size="21" fill="#282A2B" letter-spacing="-0.5">fietslease</text><text x="14" y="48" font-family="Poppins,sans-serif" font-weight="800" font-size="21" fill="#282A2B" letter-spacing="-0.5">holland</text><circle cx="172" cy="42" r="6" stroke="#669933" stroke-width="2.2" fill="none"/><circle cx="187" cy="42" r="6" stroke="#669933" stroke-width="2.2" fill="none"/><path d="M166 42c0-8 12-8 12 0" stroke="#669933" stroke-width="2" fill="none"/></svg>
-    <button onclick="uitloggen()" style="font-size:12px;font-weight:700;color:var(--gr2);background:none;border:1.5px solid var(--b1);border-radius:20px;padding:5px 12px;cursor:pointer;font-family:var(--fh)">Uitloggen</button>
+    
   </div>
   <div style="font-size:12px;font-weight:600;color:var(--gr)">Goedemorgen,</div>
   <div style="font-family:var(--fh);font-size:19px;font-weight:800;color:var(--blk);margin-bottom:14px">${c.klantnaam} 👋</div>
@@ -531,14 +531,19 @@ function scSvcDet() {
    FAQ
    ============================================ */
 const DEMO_FAQ = [
-  {id:'f1',cat:'contract',vraag:'Kan ik mijn lease eerder beëindigen?',antwoord:'Ja. Er gelden afkoopkosten afhankelijk van de resterende looptijd. Neem contact op via 085-060 1234.'},
-  {id:'f2',cat:'betaling',vraag:'Hoe werkt de automatische incasso?',antwoord:'Uw termijn wordt op de 1e van elke maand afgeschreven via SEPA-incasso.'},
-  {id:'f3',cat:'fiets',vraag:'Is diefstal verzekerd?',antwoord:'Volledig gedekt. Doe aangifte bij de politie en meld het via de Service tab.'},
-  {id:'f4',cat:'service',vraag:'Hoe snel wordt mijn melding opgepakt?',antwoord:'Urgente meldingen binnen 24 uur. Overige meldingen binnen 2–3 werkdagen.'},
-  {id:'f5',cat:'contract',vraag:'Wat gebeurt er aan het einde van mijn contract?',antwoord:'We nemen 3 maanden voor de einddatum contact op met de mogelijkheden: verlengen, inleveren of kopen.'}
+  {id:'f1',cat:'contract',vraag:'Wat zit er in mijn leasecontract?',antwoord:'Uw leasecontract bevat de fiets, een all-risk verzekering, WA-verzekering, onderhoud en reparaties. U betaalt een vaste maandelijkse termijn zonder onverwachte kosten.'},
+  {id:'f2',cat:'contract',vraag:'Kan ik mijn lease tussentijds stoppen?',antwoord:'Tussentijdse beëindiging is mogelijk maar er gelden afkoopkosten op basis van de resterende looptijd. Neem contact op via 085-9022111 of klantenservice@fietsleaseholland.nl.'},
+  {id:'f3',cat:'contract',vraag:'Wat gebeurt er aan het einde van mijn contract?',antwoord:'Wij nemen 3 maanden voor de einddatum contact met u op. U kunt dan kiezen: de fiets inleveren, het contract verlengen of de fiets overnemen tegen de restwaarde.'},
+  {id:'f4',cat:'verzekering',vraag:'Welke verzekeringen zijn inbegrepen?',antwoord:'Standaard inbegrepen: all-risk verzekering (inclusief diefstal), WA-verzekering en pechhulpverzekering. U hoeft niets extra te regelen.'},
+  {id:'f5',cat:'verzekering',vraag:'Wat moet ik doen als mijn fiets gestolen is?',antwoord:'1. Doe aangifte bij de politie en noteer het aangiftenummer. 2. Meld de diefstal via de Service tab in de app. 3. Wij regelen een vervangend vervoermiddel. Bij diefstal geldt een eigen risico — zie uw leaseovereenkomst.'},
+  {id:'f6',cat:'verzekering',vraag:'Zijn accessoires meeverzekerd?',antwoord:'Accessoires die bij levering zijn meegeleverd zijn meeverzekerd. Accessoires die u later zelf aanschaft vallen buiten de verzekering.'},
+  {id:'f7',cat:'service',vraag:'Waar kan ik naartoe voor onderhoud of reparatie?',antwoord:'U kunt terecht bij een van onze gecertificeerde servicepartners. Dien een melding in via de Service tab in de app — wij koppelen u aan de dichtstbijzijnde partner.'},
+  {id:'f8',cat:'service',vraag:'Wat moet ik doen bij pech onderweg?',antwoord:'U bent gedekt via de pechhulpverzekering. Bel 085-9022111 voor directe hulp. Buiten kantooruren verwijzen wij u naar de pechhulpdienst in uw leaseovereenkomst.'},
+  {id:'f9',cat:'service',vraag:'Hoe snel wordt mijn melding opgepakt?',antwoord:'Urgente meldingen (pech, diefstal) worden zo snel mogelijk opgepakt. Reguliere serviceverzoeken binnen 2–3 werkdagen.'},
+  {id:'f10',cat:'service',vraag:'Wat valt onder onderhoud?',antwoord:'Regulier onderhoud zoals beurten, bandenvervaging en remafstelling valt volledig onder uw lease. Geen extra kosten voor normaal gebruik.'}
 ];
 function scFaq() {
-  const cats=[{k:'all',l:'Alle'},{k:'contract',l:'Contract'},{k:'betaling',l:'Betaling'},{k:'fiets',l:'Fiets'},{k:'service',l:'Service'}];
+  const cats=[{k:'all',l:'Alle'},{k:'contract',l:'Contract'},{k:'verzekering',l:'Verzekering'},{k:'service',l:'Service'}];
   const faqs=S.faqCat==='all'?DEMO_FAQ:DEMO_FAQ.filter(f=>f.cat===S.faqCat);
   return `<div class="hdr"><div class="hdrt">FAQ</div></div>
 <div style="padding:16px 18px;background:var(--bg)">
@@ -562,8 +567,8 @@ function scContact() {
 <div style="padding:16px 18px;background:var(--bg)">
   <div class="card">
     <div class="card-t">Fietslease Holland</div>
-    <div class="row"><span class="rk">Telefoon</span><span class="rv" style="color:var(--g)">085-060 1234</span></div>
-    <div class="row"><span class="rk">E-mail</span><span class="rv" style="color:var(--g);font-size:12px">info@fietsleaseholland.nl</span></div>
+    <div class="row"><span class="rk">Telefoon</span><span class="rv" style="color:var(--g)">085-9022111</span></div>
+    <div class="row"><span class="rk">E-mail</span><span class="rv" style="color:var(--g);font-size:12px">klantenservice@fietsleaseholland.nl</span></div>
     <div class="row"><span class="rk">Openingstijden</span><span class="rv" style="font-size:12px;text-align:right">ma–vr<br>9:00–17:00</span></div>
   </div>
   <div class="card">
