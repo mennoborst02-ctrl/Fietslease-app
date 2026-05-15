@@ -162,20 +162,6 @@ const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJ
 const ANTHROPIC_KEY = '';
 const sb = window.supabase.createClient(SB_URL, SB_KEY);
 
-/* ============================================
-   DEMO DATA (fallback als Supabase leeg is)
-   ============================================ */
-const DEMO = [{
-  contractnummer:'FLH-TEST-0001', postcode:'2740AB',
-  naam:'Jan van den Berg', email:'jan@example.nl', telefoon:'06-12345678', klant_sinds:'okt 2023',
-  maandbedrag:79.95, startdatum:'1 okt 2023', einddatum:'1 okt 2026', maanden_verstreken:18, looptijd_maanden:36,
-  merk:'Batavus', model:'Dinsdag E-Go', framenummer:'BT-2023-884412', kleur:'Mat Zwart', bouwjaar:2023, batterij_wh:500, foto_url:'https://eu-central-1-shared-euc1-02.graphassets.com/AFm6DQZE4RtbPlHcjVDCpz/cmovfdy4vmd0306w2rarlk4at'
-},{
-  contractnummer:'FLH-TEST-0002', postcode:'3521GH',
-  naam:'Jan van den Berg', email:'jan@example.nl', telefoon:'06-12345678', klant_sinds:'okt 2023',
-  maandbedrag:89.95, startdatum:'1 jan 2024', einddatum:'1 jan 2027', maanden_verstreken:12, looptijd_maanden:36,
-  merk:'Trek', model:'FX 3', framenummer:'TK-2024-112233', kleur:'Wit', bouwjaar:2024, batterij_wh:0, foto_url:'https://eu-central-1-shared-euc1-02.graphassets.com/AFm6DQZE4RtbPlHcjVDCpz/cmovfdy4vmd0306w2rarlk4at'
-}];
 
 /* ============================================
    STATE
@@ -204,24 +190,19 @@ sb.auth.onAuthStateChange(async (event, session) => {
 
 async function laadContracten() {
   try {
-    // 5 seconden timeout — valt terug op demo data als Supabase te lang wacht
-    const result = await Promise.race([
-      sb.from('contracten').select('*').eq('email', USER.email).order('startdatum', {ascending: false}),
-      new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 5000))
-    ]);
-    const { data, error } = result;
+    const { data, error } = await sb.from('contracten').select('*').eq('email', USER.email).order('startdatum', {ascending: false});
     if (error) throw error;
-    CONTRACTEN = (data && data.length > 0) ? data : DEMO;
+    CONTRACTEN = data || [];
   } catch(e) {
-    // Tabel bestaat nog niet of timeout — gebruik demo data
-    CONTRACTEN = DEMO;
-  } finally {
-    IDX = 0;
-    S.sc = 'home';
-    S.stk = [];
     verbergLoader();
-    R();
+    toast('Contracten laden mislukt: ' + e.message);
+    return;
   }
+  IDX = 0;
+  S.sc = 'home';
+  S.stk = [];
+  verbergLoader();
+  R();
 }
 
 async function doLogin(email, ww) {
@@ -258,12 +239,12 @@ async function uitloggen() {
 /* ============================================
    HELPERS
    ============================================ */
-const C = () => CONTRACTEN[IDX] || DEMO[0];
+const C = () => CONTRACTEN[IDX];
 const go = (s,p={},stk=true) => { if(stk&&S.sc!=='login') S.stk.push({s:S.sc,p:S.p}); S.sc=s; S.p=p; R(); };
 const back = () => { const v=S.stk.pop(); if(v){S.sc=v.s;S.p=v.p;R();}else go('home'); };
 const toast = m => { const t=document.getElementById('tst'); t.textContent=m; t.className='tst on'; setTimeout(()=>t.className='tst',2400); };
 const ico = (d,s=22) => `<svg width="${s}" height="${s}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">${d}</svg>`;
-const pct = () => Math.round(C().maanden_verstreken/C().looptijd_maanden*100);
+const pct = () => Math.round(C().maanden_verstreken/C().contracttijd*100);
 const KM = () => Math.round(C().maanden_verstreken/12*3500);
 const CO2 = () => Math.round(KM()*0.120);
 const BES = () => Math.round((530-C().maandbedrag)*C().maanden_verstreken);
@@ -437,14 +418,14 @@ function scCon() {
   </div>
   <div style="display:flex;justify-content:space-between;font-size:10px;font-weight:600;color:var(--gr2);margin-bottom:6px"><span>Start: ${c.startdatum}</span><span>Eind: ${c.einddatum}</span></div>
   <div style="height:5px;background:var(--b2);border-radius:5px;overflow:hidden;margin-bottom:5px"><div style="height:100%;width:${pct()}%;background:var(--g);border-radius:5px"></div></div>
-  <div style="font-size:10px;font-weight:600;color:var(--gr2)">${c.maanden_verstreken} van ${c.looptijd_maanden} maanden (${pct()}%)</div>
+  <div style="font-size:10px;font-weight:600;color:var(--gr2)">${c.maanden_verstreken} van ${c.contracttijd} maanden (${pct()}%)</div>
 </div>
 <div style="padding:16px 18px;background:var(--bg)">
   <div class="card"><div class="card-t">Financieel</div>
     <div class="row"><span class="rk">Maandelijkse kosten</span><span class="rv">€ ${c.maandbedrag.toFixed(2)}</span></div>
     <div class="row"><span class="rk">Startdatum</span><span class="rv">${c.startdatum}</span></div>
     <div class="row"><span class="rk">Einddatum</span><span class="rv">${c.einddatum}</span></div>
-    <div class="row"><span class="rk">Resterende looptijd</span><span class="rv">${c.looptijd_maanden - c.maanden_verstreken} maanden</span></div>
+    <div class="row"><span class="rk">Resterende looptijd</span><span class="rv">${c.contracttijd - c.maanden_verstreken} maanden</span></div>
   </div>
   <button class="btn bp" onclick="go('invoices')" style="margin-bottom:10px">Facturen bekijken</button>
   <button class="btn bs" onclick="go('bike')">Mijn fiets</button>
