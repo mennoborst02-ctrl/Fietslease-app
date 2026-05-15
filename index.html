@@ -177,14 +177,15 @@ const S = {sc:'login', p:{}, stk:[], authMode:'login', invFilter:'all', faqTab:'
 sb.auth.onAuthStateChange(async (event, session) => {
   if (session?.user) {
     USER = session.user;
-    // Toon loader alleen als we nog op loginscherm zijn
-    if (S.sc === 'login') toonLoader('Contracten ophalen...');
+    if (event !== 'INITIAL_SESSION') {
+      toonLoader('Contracten ophalen...');
+    }
     await laadContracten();
   } else {
     USER = null;
     CONTRACTEN = [];
     verbergLoader();
-    if(S.sc !== 'login') { S.sc='login'; S.stk=[]; R(); }
+    if (S.sc !== 'login') { S.sc = 'login'; S.stk = []; R(); }
   }
 });
 
