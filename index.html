@@ -296,7 +296,7 @@ function R() {
   const noNav=['login'].includes(S.sc);
   bn.className=noNav?'bnav off':'bnav';
   if(!noNav) bn.innerHTML=navH();
-  const M={login:scLogin,home:scHome,contract:scCon,invoices:scInv,bike:scBike,svc_list:scSvcList,svc_new:scSvcNew,svc_detail:scSvcDet,faq:scFaq,profile:scPro,contact:scContact,persoonsgegevens:scPersoonsgegevens};
+  const M={login:scLogin,home:scHome,contract:scCon,invoices:scInv,bike:scBike,svc_list:scSvcList,svc_new:scSvcNew,svc_detail:scSvcDet,faq:scFaq,profile:scPro,contact:scContact,persoonsgegevens:scPersoonsgegevens,wachtwoord:scWachtwoordWijzigen};
   sc.innerHTML=(M[S.sc]||scHome)();
   sc.scrollTop=0;
 }
@@ -509,11 +509,19 @@ function scSvcList() {
 </div>`;
 }
 function scSvcNew() {
+  const c = C();
+  const base = 'https://tally.so/embed/MeKD08?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1';
+  const params = '&contractnummer=' + encodeURIComponent(c?.contractnummer||'') +
+    '&naam=' + encodeURIComponent(c?.naam||'') +
+    '&email=' + encodeURIComponent(USER?.email||'') +
+    '&telefoon=' + encodeURIComponent(c?.telefoon||'') +
+    '&merk=' + encodeURIComponent(c?.merk||'') +
+    '&model=' + encodeURIComponent(c?.model||'');
   return `<div class="hdr"><button class="bk" onclick="back()"><svg viewBox="0 0 16 16"><path d="M10 4l-6 4 6 4"/></svg></button><div class="hdrt">Service aanvragen</div></div>
 <div style="padding:16px 18px;background:var(--bg)">
   <div style="font-family:var(--fh);font-size:15px;font-weight:700;color:var(--blk);margin-bottom:4px">Serviceverzoek indienen</div>
-  <div style="font-size:12px;font-weight:500;color:var(--gr);margin-bottom:14px">Vul het formulier in. Uw contractgegevens zijn al gekoppeld.</div>
-  <iframe src="https://tally.so/embed/MeKD08?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" title="Serviceverzoek" style="width:100%;border:none;min-height:500px;border-radius:14px"></iframe>
+  <div style="font-size:12px;font-weight:500;color:var(--gr);margin-bottom:14px">Vul het formulier in. Uw gegevens worden automatisch meegestuurd.</div>
+  <iframe src="${base+params}" loading="lazy" title="Serviceverzoek" style="width:100%;border:none;min-height:500px;border-radius:14px"></iframe>
   <div style="height:14px"></div>
 </div>`;
 }
@@ -614,7 +622,7 @@ function scPro() {
   ${CONTRACTEN.map((ct,i)=>`<div class="mit" onclick="IDX=${i};go('contract')"><div class="mic" style="background:var(--gsel);color:var(--g)">${ico('<circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/><path d="M6 18l3.5-9 5.5 3L17 5 19.5 18"/>',17)}</div><span class="mitt">${ct.merk} ${ct.model}</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>`).join('')}`:''}
   <div style="font-size:11px;font-weight:700;color:var(--gr2);text-transform:uppercase;letter-spacing:.5px;margin:${CONTRACTEN.length>1?'18px':0} 0 10px;font-family:var(--fh)">Account</div>
   <div class="mit" onclick="go('persoonsgegevens')"><div class="mic" style="background:var(--gsel);color:var(--g)">${ico('<circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>',17)}</div><span class="mitt">Persoonlijke gegevens</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>
-  <div class="mit" onclick="toast('Wachtwoord wijzigen')"><div class="mic" style="background:var(--gsel);color:var(--g)">${ico('<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/>',17)}</div><span class="mitt">Wachtwoord wijzigen</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>
+  <div class="mit" onclick="go('wachtwoord')"><div class="mic" style="background:var(--gsel);color:var(--g)">${ico('<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/>',17)}</div><span class="mitt">Wachtwoord wijzigen</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>
   <div class="mit" onclick="go('contact')"><div class="mic" style="background:#FEF3C7;color:#B45309">${ico('<path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15z"/>',17)}</div><span class="mitt">Contact & diensten</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>
   <button style="background:var(--reb);color:var(--re);border:2px solid #FECACA;border-radius:12px;padding:14px 20px;font-size:14px;font-weight:700;width:100%;margin-top:18px;cursor:pointer;font-family:var(--fh)" onclick="uitloggen()">Uitloggen</button>
   <div style="height:14px"></div>
@@ -765,6 +773,38 @@ function scPersoonsgegevens() {
   </div>
   <div style="height:14px"></div>
 </div>`;
+}
+
+/* ============================================
+   WACHTWOORD WIJZIGEN
+   ============================================ */
+function scWachtwoordWijzigen() {
+  return `<div class="hdr"><button class="bk" onclick="back()"><svg viewBox="0 0 16 16" fill="none" stroke="var(--blk)" stroke-width="2" stroke-linecap="round"><path d="M10 4l-6 4 6 4"/></svg></button><div class="hdrt">Wachtwoord wijzigen</div></div>
+<div style="padding:16px 18px;background:var(--bg)">
+  <div class="card">
+    <div class="card-t">Nieuw wachtwoord instellen</div>
+    <div id="ww-err" class="err"></div>
+    <div class="fld"><div class="flbl">Nieuw wachtwoord</div><input class="fi" id="ww-new" type="password" placeholder="••••••••" autocomplete="new-password"></div>
+    <div class="fld"><div class="flbl">Bevestig nieuw wachtwoord</div><input class="fi" id="ww-new2" type="password" placeholder="••••••••" autocomplete="new-password"></div>
+    <button onclick="doWachtwoordWijzigen()" class="btn bp" style="margin-top:4px">Opslaan</button>
+  </div>
+  <div style="height:14px"></div>
+</div>`;
+}
+
+async function doWachtwoordWijzigen() {
+  const nw = document.getElementById('ww-new')?.value;
+  const nw2 = document.getElementById('ww-new2')?.value;
+  verbergFout('ww-err');
+  if (!nw || !nw2) { toonFout('ww-err', 'Vul alle velden in.'); return; }
+  if (nw !== nw2) { toonFout('ww-err', 'Wachtwoorden komen niet overeen.'); return; }
+  if (nw.length < 8) { toonFout('ww-err', 'Wachtwoord moet minimaal 8 tekens zijn.'); return; }
+  toonLoader('Wachtwoord wijzigen...');
+  const { error } = await sb.auth.updateUser({ password: nw });
+  verbergLoader();
+  if (error) { toonFout('ww-err', error.message); return; }
+  toast('Wachtwoord succesvol gewijzigd.');
+  back();
 }
 
 /* ============================================
