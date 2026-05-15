@@ -441,9 +441,9 @@ function scCon() {
    FACTUREN
    ============================================ */
 const DEMO_FACTUREN = [
-  {periode:'April 2025',datum:'1 apr 2025',bedrag:C().maandbedrag||79.95,status:'outstanding'},
-  {periode:'Maart 2025',datum:'1 mrt 2025',bedrag:C().maandbedrag||79.95,status:'paid'},
-  {periode:'Februari 2025',datum:'1 feb 2025',bedrag:C().maandbedrag||79.95,status:'paid'}
+  {periode:'April 2025',datum:'1 apr 2025',bedrag:79.95,status:'outstanding'},
+  {periode:'Maart 2025',datum:'1 mrt 2025',bedrag:79.95,status:'paid'},
+  {periode:'Februari 2025',datum:'1 feb 2025',bedrag:79.95,status:'paid'}
 ];
 function scInv() {
   const fl=S.invFilter, list=fl==='all'?DEMO_FACTUREN:DEMO_FACTUREN.filter(i=>i.status===fl);
@@ -468,17 +468,18 @@ function scInv() {
    ============================================ */
 function scBike() {
   const b=C();
-  const foto=b.foto_url?`<img src="${b.foto_url}" style="width:100%;border-radius:10px;border:1px solid var(--b1);max-height:180px;object-fit:cover;display:block;margin-bottom:12px" alt="${b.fietsmerk} ${b.fietsmodel}">`:`<svg width="310" height="100" viewBox="0 0 310 100" fill="none" style="display:block;margin:0 auto 12px"><circle cx="58" cy="68" r="36" stroke="var(--b2)" stroke-width="5"/><circle cx="58" cy="68" r="36" stroke="var(--g)" stroke-width="4" stroke-dasharray="180 46"/><circle cx="250" cy="68" r="36" stroke="var(--b2)" stroke-width="5"/><circle cx="250" cy="68" r="36" stroke="var(--g)" stroke-width="4" stroke-dasharray="195 37"/><path d="M58 68 L94 22 L154 37 L190 2" stroke="var(--blk)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M94 22 L250 68" stroke="var(--blk)" stroke-width="4.5" stroke-linecap="round"/><path d="M154 37 L250 68" stroke="var(--blk)" stroke-width="4.5" stroke-linecap="round"/><rect x="150" y="0" width="21" height="11" rx="4" fill="var(--g)"/></svg>`;
+  const foto=b.foto_url?`<img src="${b.foto_url}" style="width:100%;border-radius:10px;border:1px solid var(--b1);max-height:180px;object-fit:cover;display:block;margin-bottom:12px" alt="${b.merk} ${b.model}">`:`<svg width="310" height="100" viewBox="0 0 310 100" fill="none" style="display:block;margin:0 auto 12px"><circle cx="58" cy="68" r="36" stroke="var(--b2)" stroke-width="5"/><circle cx="58" cy="68" r="36" stroke="var(--g)" stroke-width="4" stroke-dasharray="180 46"/><circle cx="250" cy="68" r="36" stroke="var(--b2)" stroke-width="5"/><circle cx="250" cy="68" r="36" stroke="var(--g)" stroke-width="4" stroke-dasharray="195 37"/><path d="M58 68 L94 22 L154 37 L190 2" stroke="var(--blk)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M94 22 L250 68" stroke="var(--blk)" stroke-width="4.5" stroke-linecap="round"/><path d="M154 37 L250 68" stroke="var(--blk)" stroke-width="4.5" stroke-linecap="round"/><rect x="150" y="0" width="21" height="11" rx="4" fill="var(--g)"/></svg>`;
   return `<div class="hdr"><button class="bk" onclick="back()"><svg viewBox="0 0 16 16"><path d="M10 4l-6 4 6 4"/></svg></button><div class="hdrt">Mijn fiets</div></div>
 <div style="background:var(--wh);padding:18px 20px 16px;border-bottom:1.5px solid var(--b2)">
-  <div style="font-family:var(--fh);font-size:18px;font-weight:800;color:var(--blk);margin-bottom:4px">${b.fietsmerk} ${b.fietsmodel}</div>
+  <div style="font-family:var(--fh);font-size:18px;font-weight:800;color:var(--blk);margin-bottom:4px">${b.merk} ${b.model}</div>
   <div style="font-size:12px;font-weight:600;color:var(--gr);margin-bottom:12px">Frame: ${b.framenummer}</div>
   ${foto}
   ${b.batterij_wh>0?`<span style="background:var(--gsel);color:var(--gd);border:1px solid var(--gselb);padding:3px 10px;border-radius:20px;font-size:11px;font-weight:700;font-family:var(--fh)">E-bike ${b.batterij_wh}Wh</span>`:''}
 </div>
 <div style="padding:16px 18px;background:var(--bg)">
   <div class="card"><div class="card-t">Specificaties</div>
-    <div class="row"><span class="rk">Merk / model</span><span class="rv">${b.fietsmerk} ${b.fietsmodel}</span></div>
+    <div class="row"><span class="rk">Merk</span><span class="rv">${b.merk}</span></div>
+    <div class="row"><span class="rk">Model</span><span class="rv">${b.model}</span></div>
     <div class="row"><span class="rk">Bouwjaar</span><span class="rv">${b.bouwjaar}</span></div>
     <div class="row"><span class="rk">Kleur</span><span class="rv">${b.kleur}</span></div>
     ${b.batterij_wh>0?`<div class="row"><span class="rk">Batterij</span><span class="rv">${b.batterij_wh}Wh</span></div>`:''}
@@ -610,7 +611,7 @@ function scPro() {
 </div>
 <div style="padding:16px 18px;background:var(--bg)">
   ${CONTRACTEN.length>1?`<div style="font-size:11px;font-weight:700;color:var(--gr2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px;font-family:var(--fh)">Mijn contracten</div>
-  ${CONTRACTEN.map((ct,i)=>`<div class="mit" onclick="IDX=${i};go('contract')"><div class="mic" style="background:var(--gsel);color:var(--g)">${ico('<circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/><path d="M6 18l3.5-9 5.5 3L17 5 19.5 18"/>',17)}</div><span class="mitt">${ct.fietsmerk} ${ct.fietsmodel}</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>`).join('')}`:''}
+  ${CONTRACTEN.map((ct,i)=>`<div class="mit" onclick="IDX=${i};go('contract')"><div class="mic" style="background:var(--gsel);color:var(--g)">${ico('<circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/><path d="M6 18l3.5-9 5.5 3L17 5 19.5 18"/>',17)}</div><span class="mitt">${ct.merk} ${ct.model}</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>`).join('')}`:''}
   <div style="font-size:11px;font-weight:700;color:var(--gr2);text-transform:uppercase;letter-spacing:.5px;margin:${CONTRACTEN.length>1?'18px':0} 0 10px;font-family:var(--fh)">Account</div>
   <div class="mit" onclick="go('persoonsgegevens')"><div class="mic" style="background:var(--gsel);color:var(--g)">${ico('<circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>',17)}</div><span class="mitt">Persoonlijke gegevens</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>
   <div class="mit" onclick="toast('Wachtwoord wijzigen')"><div class="mic" style="background:var(--gsel);color:var(--g)">${ico('<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/>',17)}</div><span class="mitt">Wachtwoord wijzigen</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>
