@@ -358,7 +358,7 @@ function scHome() {
     <svg viewBox="0 0 200 56" fill="none" xmlns="http://www.w3.org/2000/svg" style="height:44px;display:block"><rect x="0" y="0" width="5" height="56" rx="2" fill="#669933"/><text x="14" y="24" font-family="Poppins,sans-serif" font-weight="800" font-size="21" fill="#282A2B" letter-spacing="-0.5">fietslease</text><text x="14" y="48" font-family="Poppins,sans-serif" font-weight="800" font-size="21" fill="#282A2B" letter-spacing="-0.5">holland</text><circle cx="172" cy="42" r="6" stroke="#669933" stroke-width="2.2" fill="none"/><circle cx="187" cy="42" r="6" stroke="#669933" stroke-width="2.2" fill="none"/><path d="M166 42c0-8 12-8 12 0" stroke="#669933" stroke-width="2" fill="none"/></svg>
     
   </div>
-  <div style="font-size:12px;font-weight:600;color:var(--gr)">Goedemorgen,</div>
+  <div style="font-size:12px;font-weight:600;color:var(--gr)">${(()=>{const h=new Date().getHours();return h<12?'Goedemorgen':h<18?'Goedemiddag':'Goedenavond';})()},</div>
   <div style="font-family:var(--fh);font-size:19px;font-weight:800;color:var(--blk);margin-bottom:14px">${c.naam} 👋</div>
   ${CONTRACTEN.length>1?`
   <div class="sw" onclick="toonContractKiezer()">
