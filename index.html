@@ -191,7 +191,10 @@ sb.auth.onAuthStateChange(async (event, session) => {
 
 async function laadContracten() {
   try {
-    const { data, error } = await sb.from('contracten').select('*').eq('email', USER.email).order('startdatum', {ascending: false});
+    const { data, error } = await Promise.race([
+      sb.from('contracten').select('*').eq('email', USER.email).order('startdatum', {ascending: false}),
+      new Promise((_, rej) => setTimeout(() => rej(new Error('Verbinding te traag. Probeer opnieuw.')), 8000))
+    ]);
     if (error) throw error;
     CONTRACTEN = data || [];
   } catch(e) {
