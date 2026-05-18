@@ -572,7 +572,7 @@ function scInv() {
    ============================================ */
 function scBike() {
   const b=C();
-  const foto=b.foto_url?`<img src="${b.foto_url}" style="width:100%;border-radius:10px;border:1px solid var(--b1);max-height:180px;object-fit:cover;display:block;margin-bottom:12px" alt="${b.merk} ${b.model}">`:`<svg width="310" height="100" viewBox="0 0 310 100" fill="none" style="display:block;margin:0 auto 12px"><circle cx="58" cy="68" r="36" stroke="var(--b2)" stroke-width="5"/><circle cx="58" cy="68" r="36" stroke="var(--g)" stroke-width="4" stroke-dasharray="180 46"/><circle cx="250" cy="68" r="36" stroke="var(--b2)" stroke-width="5"/><circle cx="250" cy="68" r="36" stroke="var(--g)" stroke-width="4" stroke-dasharray="195 37"/><path d="M58 68 L94 22 L154 37 L190 2" stroke="var(--blk)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M94 22 L250 68" stroke="var(--blk)" stroke-width="4.5" stroke-linecap="round"/><path d="M154 37 L250 68" stroke="var(--blk)" stroke-width="4.5" stroke-linecap="round"/><rect x="150" y="0" width="21" height="11" rx="4" fill="var(--g)"/></svg>`;
+  const foto=`<img src="${b.foto_url||'FLH Fiets.png'}" style="width:100%;height:auto;border-radius:10px;border:1px solid var(--b1);display:block;margin-bottom:12px" alt="${b.merk} ${b.model}">`;
   return `<div class="hdr"><button class="bk" onclick="back()"><svg viewBox="0 0 16 16"><path d="M10 4l-6 4 6 4"/></svg></button><div class="hdrt">Mijn fiets</div></div>
 <div style="background:var(--wh);padding:18px 20px 16px;border-bottom:1.5px solid var(--b2)">
   <div style="font-family:var(--fh);font-size:18px;font-weight:800;color:var(--blk);margin-bottom:4px">${b.merk} ${b.model}</div>
