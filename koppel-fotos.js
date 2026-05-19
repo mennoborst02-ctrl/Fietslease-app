@@ -11,25 +11,35 @@ function normalize(str) {
   return (str || '').toLowerCase().replace(/\s+/g, ' ').trim();
 }
 
+// Contractnummers in het model-veld betekenen: model onbekend
+const MODEL_ONBEKEND = /^flh\d+/i;
+
 function findFoto(fietsen, merk, model) {
-  const merkModel = normalize(`${merk} ${model}`);
+  if (!merk) return null;
   const merkNorm = normalize(merk);
+  if (!merkNorm) return null;
+
+  // Als model eruitziet als contractnummer, alleen op merk matchen
+  const modelGeldig = model && !MODEL_ONBEKEND.test(model.trim());
+  const merkModel = modelGeldig ? normalize(`${merk} ${model}`) : null;
 
   // 1. Exacte match op merk + model
-  const exact = fietsen.find(f => normalize(f.naam) === merkModel);
-  if (exact) return { foto: exact, type: 'exact' };
+  if (merkModel) {
+    const exact = fietsen.find(f => normalize(f.naam) === merkModel);
+    if (exact) return { foto: exact, type: 'exact' };
+  }
 
   // 2. Naam begint met merk + model
-  const prefixFull = fietsen.find(f => normalize(f.naam).startsWith(merkModel));
-  if (prefixFull) return { foto: prefixFull, type: 'merk+model' };
+  if (merkModel) {
+    const prefixFull = fietsen.find(f => normalize(f.naam).startsWith(merkModel));
+    if (prefixFull) return { foto: prefixFull, type: 'merk+model' };
+  }
 
-  // 3. Naam begint met merk
-  const prefixMerk = fietsen.find(f => normalize(f.naam).startsWith(merkNorm));
-  if (prefixMerk) return { foto: prefixMerk, type: 'merk' };
-
-  // 4. Fallback: merk zit ergens in de naam
-  const fuzzy = fietsen.find(f => normalize(f.naam).includes(merkNorm));
-  if (fuzzy) return { foto: fuzzy, type: 'fuzzy' };
+  // 3. Naam begint met merk (alleen als merk minstens 3 tekens)
+  if (merkNorm.length >= 3) {
+    const prefixMerk = fietsen.find(f => normalize(f.naam).startsWith(merkNorm));
+    if (prefixMerk) return { foto: prefixMerk, type: 'merk' };
+  }
 
   return null;
 }
@@ -60,6 +70,7 @@ async function koppel() {
       gevonden++;
     } else {
       console.log(`✗ Geen match: ${c.merk} ${c.model}`);
+      updates.push({ id: c.id, foto_url: null });
       niets++;
     }
   }

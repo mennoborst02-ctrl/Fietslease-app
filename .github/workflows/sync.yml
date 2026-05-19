@@ -1,0 +1,30 @@
+name: Dagelijkse sync contracten + foto's
+
+on:
+  schedule:
+    - cron: '0 3 * * *'   # elke nacht om 03:00 UTC (05:00 NL-tijd)
+  workflow_dispatch:        # ook handmatig te starten via GitHub
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - run: npm install
+
+      - name: Sync contracten en koppel foto's
+        run: node sync.js
+        env:
+          DB_HOST: ${{ secrets.DB_HOST }}
+          DB_USER: ${{ secrets.DB_USER }}
+          DB_PASSWORD: ${{ secrets.DB_PASSWORD }}
+          DB_NAME: ${{ secrets.DB_NAME }}
+          DB_PORT: ${{ secrets.DB_PORT }}
+          SUPABASE_URL: ${{ secrets.SUPABASE_URL }}
+          SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
