@@ -158,8 +158,6 @@ body{display:flex;justify-content:center;align-items:flex-start;background:#E8E4
 const SB_URL = 'https://puzxtiqtoipsqhavocez.supabase.co';
 const SB_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InB1enh0aXF0b2lwc3FoYXZvY2V6Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzgxNDY3MzksImV4cCI6MjA5MzcyMjczOX0.hvHNl9tHyoip3U2OLbXsjAza6U5Uh0vgHCDMTmlsNJc';
 
-/* ── Anthropic API key — vul hier jouw key in ── */
-const ANTHROPIC_KEY = '';
 const sb = window.supabase.createClient(SB_URL, SB_KEY);
 
 
@@ -810,34 +808,14 @@ async function sendChat() {
   R();
   setTimeout(()=>{const m=document.getElementById('chatb');if(m)m.scrollTop=m.scrollHeight;},60);
 
-  if(!ANTHROPIC_KEY) {
-    // Fallback als geen API key ingesteld
-    chatHistory = chatHistory.filter(m=>m.r!=='typing');
-    const l = txt.toLowerCase();
-    let a = 'Bel ons voor een antwoord: 085-9022111 (ma–vr 9–17u).';
-    if(l.includes('contract')) a = 'Uw contract ' + C().contractnummer + ' loopt tot ' + C().einddatum + '. €' + C().maandbedrag + '/maand.';
-    if(l.includes('stel')||l.includes('diefs')) a = 'Doe aangifte bij de politie en meld het via de Service tab. Wij regelen een vervangend vervoermiddel.';
-    if(l.includes('pech')) a = 'Bel direct 085-9022111. U bent gedekt via de pechhulpverzekering.';
-    if(l.includes('einde')||l.includes('stop')) a = 'Wij nemen 3 maanden voor de einddatum contact op. Tussentijds stoppen kan, maar er gelden afkoopkosten.';
-    chatHistory.push({r:'bot', t:a});
-    R();
-    setTimeout(()=>{const m=document.getElementById('chatb');if(m)m.scrollTop=m.scrollHeight;},80);
-    return;
-  }
-
   try {
     const c = C();
     const faqTekst = DEMO_FAQ.map(f => 'V: ' + f.vraag + '\nA: ' + f.antwoord).join('\n\n');
     const systeem = 'Jij bent de klantenservice-assistent van Fietslease Holland. Beantwoord vragen vriendelijk en beknopt in het Nederlands (max 3 zinnen). Gebruik ALLEEN de FAQ en klantgegevens hieronder. Ken je het antwoord niet, verwijs naar 085-9022111 of klantenservice@fietsleaseholland.nl (ma-vr 9-17u). Verzin nooit gegevens.\n\nKLANTGEGEVENS:\nNaam: ' + c.naam + '\nContract: ' + c.contractnummer + '\nFiets: ' + c.merk + ' ' + c.model + '\nMaandbedrag: \u20ac' + c.maandbedrag + '\nEinddatum: ' + c.einddatum + '\n\nFAQ:\n' + faqTekst;
 
-    const res = await fetch('https://api.anthropic.com/v1/messages', {
+    const res = await fetch('/api/chat', {
       method: 'POST',
-      headers: {
-        'Content-Type': 'application/json',
-        'x-api-key': ANTHROPIC_KEY,
-        'anthropic-version': '2023-06-01',
-        'anthropic-dangerous-direct-browser-access': 'true'
-      },
+      headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({
         model: 'claude-haiku-4-5-20251001',
         max_tokens: 400,

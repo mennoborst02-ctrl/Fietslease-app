@@ -1,0 +1,2647 @@
+[
+  {
+    "naam": "Greens Corwen 12v",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/5/456f1f79-7667-451e-8110-1413a8555281_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/greens-corwen-12v"
+  },
+  {
+    "naam": "Urban Arrow Family",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/u/a/ua-family-performance-plus-black-f1_web_1.png",
+    "product_url": "https://www.fietsleaseholland.nl/urban-arrow-family"
+  },
+  {
+    "naam": "VanMoof S6",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/6/s6_electric-blue_nothing_01_06062025_2.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/vanmoof-s6"
+  },
+  {
+    "naam": "Gazelle Miss Grace C7 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/b/1bea3e60-758c-46e6-a3ac-39eab5877a57_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-miss-grace-c7-hmb"
+  },
+  {
+    "naam": "Tenways CGO800S",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/g/cgo800s_pebble_grey-1.png",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-cgo800s"
+  },
+  {
+    "naam": "Gazelle Paris C7+ HMB Smart",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/1/b16ef285-5dde-4ce5-9ea6-dc2e6618610e_2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-paris-c7-hmb-smart"
+  },
+  {
+    "naam": "Trek Madone SL 5 Gen 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/a/da235750-b5f0-41f9-866a-bc1b89e15732_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-madone-sl-5-gen-8"
+  },
+  {
+    "naam": "Tenways Longtail Duo",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/0/b0000c71-d7b3-4076-84b0-814295142b4b_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-longtail-duo"
+  },
+  {
+    "naam": "Cortina Common",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/c/ccoh0001_1__2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-common"
+  },
+  {
+    "naam": "Carqon Cruise Smart",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_2_7.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/carqon-cruise-smart"
+  },
+  {
+    "naam": "Diamant Mahon Style Plus",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_3_1_3.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/diamant-mahon-style-plus"
+  },
+  {
+    "naam": "Diamant Mahon World",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/a/fada77b2-5caa-4d17-a43b-fa60ca95c020.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/diamant-mahon-world"
+  },
+  {
+    "naam": "Diamant Nhoma",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/i/diamant_nhoma_rood_main.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/diamant-nhoma"
+  },
+  {
+    "naam": "Cortina E-Blau",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_16.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-e-blau"
+  },
+  {
+    "naam": "Kalkhoff Image 3 Advance",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/b/abbe43e2-c7cf-4286-b0a6-a3a1a2927542.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-image-3-advance"
+  },
+  {
+    "naam": "Trek Checkpoint ALR 5",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/5/25cb2844-ad88-4815-a2c2-00cdbfc20028.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-checkpoint-alr-5"
+  },
+  {
+    "naam": "Trek Checkpoint ALR 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/0/6045bbe0-ee20-423a-8212-735dd6632995.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-checkpoint-alr-3"
+  },
+  {
+    "naam": "Raymon Arva Pro",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/9/2/9230de4c-bbf7-4448-a219-046bee5d2a7d.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/raymon-arva-pro"
+  },
+  {
+    "naam": "Raymon Arva Comp",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/a/bacbfc8d-8781-4370-a9cc-2c8d06f314d9.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/raymon-arva-comp"
+  },
+  {
+    "naam": "Raymon Kirana 105",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/9/d/9d8dd696-dfbf-4293-a699-c9faa0e3b301.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/raymon-kirana-105"
+  },
+  {
+    "naam": "BesV CT 2.5 LS",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/0/105069002-4715109799156-besv-ct25ls-night-black-main_1__1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/besv-ct-2-5-ls"
+  },
+  {
+    "naam": "Tenways Ago Performance",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/m/i/mineral_blue_1.png",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-ago-performance"
+  },
+  {
+    "naam": "Cube Touring Hybrid Comfort SLX 800",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/u/cube_touring_hybrid_dames.png",
+    "product_url": "https://www.fietsleaseholland.nl/cube-touring-hybrid-comfort-slx-800"
+  },
+  {
+    "naam": "Gazelle Ultimate C5+ HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/1/310aab44-c663-417e-9b7a-b5d80ebc6e44.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-ultimate-c5-plus-hmb"
+  },
+  {
+    "naam": "Stevens E-Hazard Gen 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/d/ed08ff91-f121-4e46-aba2-405ae839f953.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-hazard-gen-2"
+  },
+  {
+    "naam": "Stevens E-Triton 9.8.1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/d/dd69ca53-aa40-4333-b022-c8a0af729f51.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-triton-9-8-1"
+  },
+  {
+    "naam": "Tenways AGO Compact Performance",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/o/copy_of_sandstone_beige_1.png",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-ago-compact-performance"
+  },
+  {
+    "naam": "Giant Expression E+ 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/6/761b7810-4368-4c82-86e9-efcd01cffa59.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-expression-e-1"
+  },
+  {
+    "naam": "Giant Expression E+ 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/c/8cc84426-2f7e-40b8-929c-97346c86e554.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-expression-e-2"
+  },
+  {
+    "naam": "Giant Expression E+ 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/c/ec6c19eb-a4f5-43bb-be4f-95dd6dc3e757.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-expression-e-3"
+  },
+  {
+    "naam": "Bianchi Infinito Pro Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/9/7917eacc-a8f3-42fb-9969-e775db1d3234.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/bianchi-infinito-pro-di2"
+  },
+  {
+    "naam": "Liv Enviliv Advanced 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/2/025311a4-f96f-4e4b-b8e2-7cebc65222e4_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/liv-enviliv-advanced-2"
+  },
+  {
+    "naam": "Liv Enviliv Advanced Pro 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/b/eb43be56-546c-4b64-8ae4-ec9c0f9966c8.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/liv-enviliv-advanced-pro-1"
+  },
+  {
+    "naam": "Liv Enviliv Advanced Pro 0",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/b/eb43be56-546c-4b64-8ae4-ec9c0f9966c8_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/liv-enviliv-advanced-pro-0"
+  },
+  {
+    "naam": "Cannondale CAAD14 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/9/8/9852dc17-d32b-4941-8c8d-0d4c8c22f5fb.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-caad14-3"
+  },
+  {
+    "naam": "Giant NewTour E+ 0",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/a/daf88d56-c9c8-467e-8bf3-852260eea7f8.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-newtour-e-0"
+  },
+  {
+    "naam": "Giant AnyTour E+ 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/3/e3e51fbd-c6bc-4ee5-b4cf-48ed4f98126e.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-anytour-e-2"
+  },
+  {
+    "naam": "Giant AnyTour E+ 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/d/cd03148a-3a46-44cd-9cf5-daf32d01f638.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-anytour-e-1"
+  },
+  {
+    "naam": "Giant Propel Advanced Pro 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/4/b44d1a7c-7791-4038-a1a4-9c0f55fce8d2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-propel-advanced-pro-1"
+  },
+  {
+    "naam": "Giant Propel Advanced 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/6/76e2850e-b69d-436b-827c-51ecab810db3.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-propel-advanced-1"
+  },
+  {
+    "naam": "Merida Reacto 9000",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/a/2a1e5236-181b-407c-a4d9-517abf801774.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/merida-reacto-9000"
+  },
+  {
+    "naam": "Merida Reacto 8000",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/7/479c10d6-7065-4935-bcb9-5d8a8205ca7a.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/merida-reacto-8000"
+  },
+  {
+    "naam": "Merida Reacto 7000",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/a/cae5d298-0651-4158-afe3-5baf4f7f8048.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/merida-reacto-7000"
+  },
+  {
+    "naam": "Merida Reacto 6000",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/e/0e27f12a-1507-4241-b632-fb226d6c8577.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/merida-reacto-6000"
+  },
+  {
+    "naam": "Gazelle Avignon C380+ HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/f/df837006-7e7f-4a8d-8914-0f47d419618d.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-avignon-c380-plus-hmb"
+  },
+  {
+    "naam": "Cube Editor Hybrid SLT 400X",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/u/cube_groen_dames_1.png",
+    "product_url": "https://www.fietsleaseholland.nl/cube-editor-hybrid-slt-400x"
+  },
+  {
+    "naam": "Riese & Müller Nevo5 Silent Core",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/8/68436967-e31f-4818-a4ac-8d8e0cf640ee.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/riese-muller-nevo5-silent-core"
+  },
+  {
+    "naam": "Cortina E-Common Family Integrated Automatic",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/3/43b2d7c3-6847-481a-91de-2eeb5e55f040.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-e-common-family-integrated-automatic"
+  },
+  {
+    "naam": "Tenways AGO X Special Edition",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/o/l/olive_moss_1_1.png",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-ago-x-special-edition"
+  },
+  {
+    "naam": "Cube Supreme Hybrid Deluxe Pro",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/8/78c1c5a0-63d9-4761-af06-228e1e51350c.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-supreme-hybrid-deluxe-pro"
+  },
+  {
+    "naam": "Gazelle Grenoble C8+ HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/c/2c70ace9-24ce-482a-9c53-fc2bbf083516.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-grenoble-c8plus-hmb"
+  },
+  {
+    "naam": "Gazelle Grenoble C8 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/af06dc91-f203-4e7a-90ff-28376f990e8b.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-grenoble-c8-hmb-2026"
+  },
+  {
+    "naam": "Reany C1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/5/c/5c7f7e2a-1604-4520-b079-bd7a94dc7737.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/reany-c1"
+  },
+  {
+    "naam": "Cube Supreme Hybrid Comfort SE One",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/7/177d6e1a-0681-494c-bff1-b79dd94aee75_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-supreme-hybrid-comfort-se-one"
+  },
+  {
+    "naam": "Liv Allure E+ 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/2/4284e0bb-b5be-4cac-92bc-f8149dc56c67.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/liv-allure-e-1"
+  },
+  {
+    "naam": "Sensa Travel Power Premium",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/e/2ed61c9b-9df0-486f-bcab-538f18e785a9_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-travel-power-premium"
+  },
+  {
+    "naam": "Sensa Cintura Power Premium",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/a/6a8400d0-39b2-4425-bbe7-b5e9876d550b.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-cintura-power-premium"
+  },
+  {
+    "naam": "Trek Charter+ 5 Auto",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trek_zwart.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-charter-5-auto"
+  },
+  {
+    "naam": "Trek Charter+ 5 R10",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trek_donkerblauw.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-charter-5-r10"
+  },
+  {
+    "naam": "Stromer ST7 Sport ABS",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/d/ed386599-e761-407d-8a16-32fe0894194f.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stromer-st7-sport-abs"
+  },
+  {
+    "naam": "Riese & Müller Charger5 Vario HS",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/0/00eff33a-26ff-4c40-8aaf-03df92f3f005_2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/riese-muller-charger5-vario-hs"
+  },
+  {
+    "naam": "Tenways CGO COMPACT",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/_/0/_081101445001_cgo_compact_ebike.png",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-cgo-compact"
+  },
+  {
+    "naam": "Diamant Suvea Style",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/f/4f14184b-97f7-4e59-be70-80db3b25b199_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/diamant-suvea-style"
+  },
+  {
+    "naam": "Trek Charter+ 4 Nexus 5",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/9/b9ac97b8-dfff-44dd-8cf9-aded49802223.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-charter-4-nexus-5"
+  },
+  {
+    "naam": "Trek Charter+ 4 Trail",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/a/0a592362-0b4e-44bb-a12f-118f18004419.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-charter-4-trail"
+  },
+  {
+    "naam": "Trek Charter+ 4 R9",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/3/e3098822-a451-4d2d-af57-e4533cd5f4d7.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-charter-4-r9"
+  },
+  {
+    "naam": "Flyer G2 Gotour 3.43",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/1/3139af80-22fb-4df2-bcad-aee3cd285e51.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/flyer-g2-gotour-3-43"
+  },
+  {
+    "naam": "Giant Explore E+ 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/b/abc5a270-37d7-415a-9d22-fdc2e2378651_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-explore-e-2"
+  },
+  {
+    "naam": "Huyser Q-Bike",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/5/2/52fd1e76-f8fb-4602-9d89-c1509e1b360e.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/huyser-q-bike"
+  },
+  {
+    "naam": "Sparta d-Wiz M7B",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/8/28ff6b7a-d7ff-4482-b17a-2b3cc3d85a0d.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sparta-d-wiz-m7b"
+  },
+  {
+    "naam": "Cube Fold Hybrid Comfort 545",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/e/1ec42066-a0ee-4bfa-b2b6-c75a1d5b755e.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-fold-hybrid-comfort-545"
+  },
+  {
+    "naam": "Cube Reaction Hybrid Pro 800",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/1/a141ec7c-056d-433b-84b4-f4367861014a.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-reaction-hybrid-pro-800"
+  },
+  {
+    "naam": "Cube Reaction Hybrid One",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/c/7cd92f09-c6af-48b7-8658-71aa702a5bab.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-reaction-hybrid-one"
+  },
+  {
+    "naam": "Lovens Explorer 2 S60",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/2/b2c6ab62-ce24-40a7-954b-121d4b631d6f_3_2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/lovens-explorer-2-s60"
+  },
+  {
+    "naam": "Lovens Explorer 2 S75",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/2/b2c6ab62-ce24-40a7-954b-121d4b631d6f_3_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/lovens-explorer-2-s75"
+  },
+  {
+    "naam": "Lovens Explorer 2 S100",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/2/b2c6ab62-ce24-40a7-954b-121d4b631d6f_3.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/lovens-explorer-2-s100"
+  },
+  {
+    "naam": "Sensa Giulia GF Di2 Special",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/5/85ceb556-d6ad-407c-a4a9-bdf4037a06bc.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-giulia-gf-di2-special"
+  },
+  {
+    "naam": "Sensa Giulia GF Tour",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/3/03cc73f5-4671-4530-9385-4cc71018224d.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-giulia-gf-tour"
+  },
+  {
+    "naam": "Raleigh One",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/8/488dcd35-ce02-4ccc-9943-8590f3e6e345.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/raleigh-one"
+  },
+  {
+    "naam": "Stevens E-Universe 6.5 FEQ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/1/41d36943-991d-4f46-850e-a4277294b909.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-universe-6-5-feq"
+  },
+  {
+    "naam": "Stevens E-8x Tour Plus",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/7/27b71dda-ad21-41f7-b51c-8667f819c22f.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-8x-tour-plus"
+  },
+  {
+    "naam": "Reany W1 Pro",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/b/fb683c5e-f584-425d-ac8b-4abb2a00f8c6.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/reany-w1-pro"
+  },
+  {
+    "naam": "Reany W1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/3/d3f6b522-7c25-41da-9c67-c34ea53dd948.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/reany-w1"
+  },
+  {
+    "naam": "Reany N1 Pro",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/9/e/9efa361e-903f-4692-9ffd-0dc95d9e6528.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/reany-n1-pro"
+  },
+  {
+    "naam": "Sparta D-Rule Energy",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/1/f1344a7c-c787-4732-86bf-58d17c98682a.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sparta-d-rule-energy"
+  },
+  {
+    "naam": "Sparta D-Rule Ultra",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/2/b2b5bfb2-784c-404b-a120-7fa8c74e254b.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sparta-d-rule-ultra"
+  },
+  {
+    "naam": "Merida Scultura 9000",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/f/ef546fb1-90d9-41ae-9e5d-e01000775a53.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/merida-scultura-9000"
+  },
+  {
+    "naam": "Merida Scultura 8000",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/2/72f091dc-31b3-4ea4-b2c6-7d02a51a9cb4.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/merida-scultura-8000"
+  },
+  {
+    "naam": "Gazelle Cayo C310",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/2/a2ee417f-6a70-426a-ad5a-4c43e9bcf395.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-cayo-c310"
+  },
+  {
+    "naam": "Gazelle Cayo C1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/d/2d40bba5-1391-49a4-a963-59a5ff3cc329.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-cayo-c1"
+  },
+  {
+    "naam": "Scott Addict RC 20",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/9/0/901bb6cc-f0e0-4615-b574-711a7d1e1da0_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-addict-rc-20"
+  },
+  {
+    "naam": "Scott Addict RC Pro",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/1/a1d34df8-0f37-4138-94e7-174ba51dd1fc.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-addict-rc-pro"
+  },
+  {
+    "naam": "Urban Arrow Breeze",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/r/breeze_green_right.png",
+    "product_url": "https://www.fietsleaseholland.nl/urban-arrow-breeze"
+  },
+  {
+    "naam": "Gazelle Ultimate T11 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/f/4f6b919a-5643-487e-ba70-6f671e8fbcca.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-ultimate-t11-hmb"
+  },
+  {
+    "naam": "Gazelle Easyflow C8 HMS",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/1/c18dac03-164d-442f-b992-1e28d5958d0d.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-easyflow-c8-hms"
+  },
+  {
+    "naam": "Koga E-XITE",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/b/2bafac90-9a7b-410e-92bf-a5ac9da49827.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/koga-e-xite"
+  },
+  {
+    "naam": "Stevens Izoard 105 Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/9/09a7c9fb-591f-49c6-bead-5b4c69bb10fa_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-izoard-105-di2"
+  },
+  {
+    "naam": "Gazelle Makki Urban",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/5/25055659-688b-4bc0-8a25-2401ce48176d.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-makki-urban"
+  },
+  {
+    "naam": "Riese & Müller Multicharger3 Family",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/5/a/5a723c1b-6377-4679-abc6-7e24ac60faf0.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/riese-muller-multicharger3-family"
+  },
+  {
+    "naam": "Cube Kathmandu Hybrid Comfort Pro",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/6/46f00991-05fa-46b1-8708-dc16c42e2bef_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-kathmandu-hybrid-comfort-pro"
+  },
+  {
+    "naam": "Cube Supreme Hybrid Deluxe One",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/af51c6fa-a603-446e-b1ed-0aa28a1c5b8a.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-supreme-hybrid-deluxe-one"
+  },
+  {
+    "naam": "Stevens E-Inception FR 9.7.2 GTF",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/2/c2a8dbdf-e82f-4150-8184-d20fe8ffb00e_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-inception-fr-9-7-2-gtf"
+  },
+  {
+    "naam": "Riese & Müller Charger5 Vario",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/d/cdf96b59-2598-4a39-bf08-e046da37643d_2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/riese-muller-charger5-vario"
+  },
+  {
+    "naam": "Ridley Kanzo Speed Gravel",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/5/65904564-fa47-4486-ba97-ce46087cefea_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/ridley-kanzo-speed-gravel"
+  },
+  {
+    "naam": "Ridley Grifn GRX800 LTD",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/6/a61ea717-ce96-4b44-b9be-d3f7385a0baf.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/ridley-grifn-grx800-ltd"
+  },
+  {
+    "naam": "Stevens E-Tremalzo",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/7/d720d88c-0c37-47f6-bc3a-83340d193fc5_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-tremalzo"
+  },
+  {
+    "naam": "Haibike AllTrack 6",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/7/477fdd62-c579-4cea-9da7-0e28ab31bbc3.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/haibike-alltrack-6"
+  },
+  {
+    "naam": "Flyer Gotour6 3.40",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/aff1c3ab-c72e-4156-958f-df0726cd594c_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/flyer-gotour6-3-40"
+  },
+  {
+    "naam": "Kalkhoff Endeavour L Season",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/c/dc63087e-09b3-48a6-a1d9-181411dd20f8.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-endeavour-l-season"
+  },
+  {
+    "naam": "Kalkhoff Image L Excite",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/e/4e290083-2fb0-4b1c-837a-ab9388dae556.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-image-l-excite"
+  },
+  {
+    "naam": "Kalkhoff Image 3 Excite 380",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/2/727458d9-2012-48bd-bcf8-a401c4b8a902.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-image-3-excite-380"
+  },
+  {
+    "naam": "Kalkhoff Image 5+ Move",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/c/ac066092-cf91-4717-84cb-441193908dfa.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-image-5-move"
+  },
+  {
+    "naam": "Kalkhoff Image 5+ Advance",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/7/07419804-f149-499e-926b-05accc05ead5.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-image-plus-5-advance"
+  },
+  {
+    "naam": "Eovolt Afternoon Origins",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/a/7a7bdd17-5349-41ab-acec-4adfaff54e4f.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/eovolt-afternoon-origins"
+  },
+  {
+    "naam": "Ghost E-Riot AM CF Advanced",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/5/7538239a-71c7-43f5-9675-a3a269bd2c52_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/ghost-e-riot-am-cf-advanced"
+  },
+  {
+    "naam": "Ghost Lector SF UC Advanced",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/4/f4691705-8c3d-4979-8804-71a68b090ed6.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/ghost-lector-sf-uc-advanced"
+  },
+  {
+    "naam": "Ghost Lector FS SF Essential",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/d/fd583c91-398b-4ef1-a826-a86ff02d1c94_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/ghost-lector-fs-sf-essential"
+  },
+  {
+    "naam": "Flyer Gotour 5.43 CX",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/b/8b65c06e-dc9d-4ae9-9357-e1caff9e0d14_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/flyer-gotour-5-43-cx"
+  },
+  {
+    "naam": "Sparta C-Ready Energy F7e Belt",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/8/88cbf23f-b172-4aa0-b886-eb2f1b060954_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sparta-c-ready-energy-f7e-belt"
+  },
+  {
+    "naam": "VanMoof S6 Open",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/6/s6open_drift-black_nothing_01_06062025_2.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/vanmoof-s6-open"
+  },
+  {
+    "naam": "Tenways AGO AIR",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/m/i/midnight_black-1_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-ago-air"
+  },
+  {
+    "naam": "Stevens E-Inception AM 8.7.2 GTF",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/1/61bc2965-0b97-4d52-9ffb-de08ddb7baec_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-inception-am-8-7-2-gtf"
+  },
+  {
+    "naam": "Stevens E-Inception AM 9.7.1 GTF",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/7/778631fa-d0e8-46b8-901d-8bae4fd81cfa.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-inception-am-9-7-1-gtf"
+  },
+  {
+    "naam": "Greens Richmond 10v",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_14_2_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/greens-richmond-10v"
+  },
+  {
+    "naam": "Greens Bromley ER",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_10_4.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/greens-bromley-er"
+  },
+  {
+    "naam": "Greens Watford 10v",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_11_1_2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/greens-watford-10v"
+  },
+  {
+    "naam": "Greens Bromley 8v",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_10_1_2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/greens-bromley-8v"
+  },
+  {
+    "naam": "Greens Bromley 5v",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_7_2_2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/greens-bromley-5v"
+  },
+  {
+    "naam": "Greens Dorset 12v",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_2_6.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/greens-dorset-12v"
+  },
+  {
+    "naam": "Greens Carlton 5v",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_1_2_3.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/greens-carlton-5v"
+  },
+  {
+    "naam": "MOEVS Second One",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/m/o/moecvs_studio94564_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/moevs-second-one"
+  },
+  {
+    "naam": "MOEVS First One",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/m/o/moecvs_studio94692.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/moevs-first-one"
+  },
+  {
+    "naam": "Gazelle Esprit C7 HMS Gen2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/8/a8ede24e-588c-43c5-b8dd-98346684369e.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-esprit-c7-hms-gen2"
+  },
+  {
+    "naam": "Cortina E-U4 Next",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/e/2ec876de-f723-45fc-ba6d-abe84e880b89_2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-e-u4-next"
+  },
+  {
+    "naam": "Gazelle Bloom C7 HMS Gen2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/5/e/5e32a06f-9663-444a-b935-c49cf791f41c_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-bloom-c7-hms-gen2"
+  },
+  {
+    "naam": "Stevens E-Triton 6.5.1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/2/b27138b4-873f-4950-a39b-44ec71bf0ecc_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-triton-6-5-1"
+  },
+  {
+    "naam": "Stevens E-Universe 9.7.1 FEQ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/f/4f679e25-15ea-47fb-bcc5-3d10e7707b8d_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-universe-9-7-1-feq"
+  },
+  {
+    "naam": "Stevens E-Courier Luxe",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/8/182c4a85-6021-47a9-b908-33e7130af0a5.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-courier-luxe"
+  },
+  {
+    "naam": "Stevens E-Triton PT5",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/1/d15db438-b79f-4843-a825-aa2b1781aa35.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-triton-pt5"
+  },
+  {
+    "naam": "Stevens E-Inception AM 7.7.2 ACT",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/6/d605bc35-fb36-468d-b4f7-2312c813eef6.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-inception-am-7-7-2-act"
+  },
+  {
+    "naam": "Stevens E-Courier Plus",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/1/d1d2565d-cf79-4dd0-82ae-9a4d22d6a996.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-courier-plus"
+  },
+  {
+    "naam": "Stevens E-14 Rohloff",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/4/e4d0f15f-d66e-4905-936c-ef6e1d40a794.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-14-rohloff"
+  },
+  {
+    "naam": "Cannondale Habit HT 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/d/6dc04144-699d-444e-9642-90db82b98693_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-habit-ht-1"
+  },
+  {
+    "naam": "Cube Touring Pro",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/u/cube_touring_pro_2025_heren_grijs_main.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cube-touring-pro-2025"
+  },
+  {
+    "naam": "Cortina U1 1V",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/f/0f9edaf4-68c5-4771-b166-3b3896f5226d.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-u1-1v"
+  },
+  {
+    "naam": "Gazelle Avignon C8 HMB Connect",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/5/6/56cc434b-a44f-4c5c-b04a-3ee9fccc7fd9_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-avignon-c8-hmb-connect"
+  },
+  {
+    "naam": "Cube Kathmandu SLX ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/u/cube_kathmandu_slx_2025_heren_zwart_main.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cube-kathmandu-slx"
+  },
+  {
+    "naam": "Cube Editor FE",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/y/synqup_855311_360i_00_1920x1920.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cube-editor-fe"
+  },
+  {
+    "naam": "Cube Kathmandu Pro",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/u/cube_kathmandu_pro_2025_heren_zwart_main_1.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cube-kathmandu-pro"
+  },
+  {
+    "naam": "Cortina Common Transport Belt 7v",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/o/cortina_common_transport_belt_7v_heren_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-common-transport-belt-7v"
+  },
+  {
+    "naam": "Cortina Tide RN",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/o/cortina_tide_rn_heren_zwart_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-tide-rn"
+  },
+  {
+    "naam": "Tenways CGO800 Plus",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/k/skyblue-1_1.png",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-cgo800-plus"
+  },
+  {
+    "naam": "Pegasus Premio EVO 5F Belt",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/2/22323bd2-7469-42c9-8528-eeb6d87b8e1c_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/pegasus-premio-evo-5f-belt"
+  },
+  {
+    "naam": "Pegasus Savino EVO 12 Lite",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/7/f75b6c72-6ee0-4a6e-a914-2ca0e7be7faa_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/pegasus-savino-evo-12-lite"
+  },
+  {
+    "naam": "Pegasus Savino EVO 5F Lite Belt",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/1/b1714075-8abc-471f-9abc-7579141df271_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/pegasus-savino-evo-5f-lite-belt"
+  },
+  {
+    "naam": "Cortina Foss N7",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/f/cfoss7ndd61abmx2400.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-foss-n7"
+  },
+  {
+    "naam": "Cortina U4 Transport Solid 7v",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/t/ctf7d50slmtx2400.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-u4-transport-solid-7v"
+  },
+  {
+    "naam": "Cortina Common 3v",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/o/cortina_common_3v_heren_zwart_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-common-3v"
+  },
+  {
+    "naam": "Gazelle Cabby C380",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/4/04872b5c-8fac-48f1-9dc4-8331431d0f8a_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-cabby-c380"
+  },
+  {
+    "naam": "Haibike AllTrack 5",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/8/28a153e1-578c-4d3d-925c-602187e2791c.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/haibike-alltrack-5"
+  },
+  {
+    "naam": "Tenways CGO600 Plus",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/k/sky_blue-1_1.png",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-cgo600-plus"
+  },
+  {
+    "naam": "Cortina Tide ND3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_3.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-tide-nd3"
+  },
+  {
+    "naam": "Cortina Tide ND7",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_7.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-tide-nd7"
+  },
+  {
+    "naam": "Cortina U4 Transport 7v",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/o/cortina_u4_transport_n7_2024_heren_mouse_grey_zijaanzicht_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-u4-transport-7v"
+  },
+  {
+    "naam": "Cortina U4 solid 3V",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/o/cortina_u4_r3_2024_heren_zijaanzicht_1__2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-u4-solid-3v"
+  },
+  {
+    "naam": "Batavus Mambo HN7",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/a/batavus_mambo_donkerblauw_1_.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-mambo-hn7"
+  },
+  {
+    "naam": "Batavus Mambo N7",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/a/batavus_mambo_dn7_blauw_1_.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-mambo-n7"
+  },
+  {
+    "naam": "Batavus Senz Exclusive",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/c/bc501184_ba9ea5fd80.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-senz-exclusive"
+  },
+  {
+    "naam": "Batavus Senz Comfort ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/e/senz_comfort_2025_heren_blauw-1.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-senz-comfort"
+  },
+  {
+    "naam": "Batavus Fonk N7",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/a/batavus_fonk_n7_2025-_heren_-_mat_zwart_1_1_.jpg_2_1.png",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-fonk-n7"
+  },
+  {
+    "naam": "Knaap Lon",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/2/02f69a91-a9fa-4c66-952d-8cb0102f80b9_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/knaap-lon"
+  },
+  {
+    "naam": "Trek Verve 2 Equipped",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trek_verve_equipped_2024_1__2.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-verve-2-equipped"
+  },
+  {
+    "naam": "Trek Dual Sport 3 EQ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/a/7ad22c75-cc91-4e4f-b705-21698f699f9b.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-dual-sport-3-eq"
+  },
+  {
+    "naam": "Merida Scultura Endurance 9000",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/l/blauw.png",
+    "product_url": "https://www.fietsleaseholland.nl/merida-scultura-endurance-9000"
+  },
+  {
+    "naam": "Merida Scultura Endurance 6000",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/m/e/merida_scultura_endurance_grijs.png",
+    "product_url": "https://www.fietsleaseholland.nl/merida-scultura-endurance-6000"
+  },
+  {
+    "naam": "Merida Reacto 4000",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/3/63f66350-aa42-489b-aa6b-ecdf56d6a467.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/merida-reacto-4000"
+  },
+  {
+    "naam": "Merida Reacto 5000",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/4/f401041e-61f0-4ddc-b17f-124d0ce1fe6f.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/merida-reacto-5000-di2"
+  },
+  {
+    "naam": "Knaap BCN",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/0/10b7a353-2221-4ba2-9a94-2fb4b5ad8537_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/knaap-bcn"
+  },
+  {
+    "naam": "Merida Scultura Endurance 4000",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/m/e/merida_scultura_endurance_4000_2025_main.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/merida-scultura-endurance-4000"
+  },
+  {
+    "naam": "Pinarello F7 Ultegra Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/p/i/pinarello_f7_ultegra_di2_fastest_blue_1.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/pinarello-f7-ultegra-di2"
+  },
+  {
+    "naam": "Ridley Noah 3.0 105 Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/r/i/ridley_noah_3.0_105_di2_2025-grijs-1.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/ridley-noah-3-0-105-di2"
+  },
+  {
+    "naam": "Ridley Falcn 105",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/r/i/ridley_falcn_105_2x12_2025_blauw.jpg_1__2.png",
+    "product_url": "https://www.fietsleaseholland.nl/ridley-falcn-105"
+  },
+  {
+    "naam": "Ridley Falcn 105 Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/a/falcn_105_di2_blauw_1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/ridley-falcn-105-di2"
+  },
+  {
+    "naam": "Kona Kahuna",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/o/kona_kahuna_groen_1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/kona-kahuna"
+  },
+  {
+    "naam": "Kona Honzo DL",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/o/kona_honzo_dl_grijs_1_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/kona-honzo-dl"
+  },
+  {
+    "naam": "Merida One Twenty 600",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/m/e/merida_one_twenty_600_blauw_1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/merida-one-twenty-600"
+  },
+  {
+    "naam": "Merida Big Nine 60",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/i/big_nine_60_anthslv_my2021_1.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/meridabig-nine-60"
+  },
+  {
+    "naam": "Sensa Alura Cues",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/e/sensa_alura_ltd_cues_stealth_h192025_dsc_5916_hr.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-alura-cues"
+  },
+  {
+    "naam": "Sensa Alura LTD",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/e/sensa_alura_ltd.png",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-alura-ltd"
+  },
+  {
+    "naam": "Cannondale Scalpel 2 Lefty",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/2/c24_c24354u_scalpel_crb_2_lefty_sbk_pd.jpg_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-scalpel-2-lefty"
+  },
+  {
+    "naam": "Cannondale Scalpel Carbon 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/2/c24_c24504u_scalpel_crb_4_ryw_pd.jpg_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-scalpel-carbon-4"
+  },
+  {
+    "naam": "Cube Reaction SLX",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/u/cube_reaction_slx_2025_zwart_main.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cube-reaction-slx"
+  },
+  {
+    "naam": "Cube Aim One",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/u/cube_aim_one_neongroen_main_2025.jpg_1__2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cube-aim-one"
+  },
+  {
+    "naam": "Cube Attention Pro 2025",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/u/cube_attention_pro_2025_blauw_wit_main.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/attention-pro"
+  },
+  {
+    "naam": "Wilier Filante SLR Ultegra Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/b/8b137631-5fb0-4316-9e29-bf45596c7b18_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/wilier-filante-slr-ultegra-di2"
+  },
+  {
+    "naam": "Wilier Verticale SLR Ultegra Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/b/3b9a670c-5358-40ff-a454-b30f25b53102_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/wilier-verticale-slr-ultegra-di2"
+  },
+  {
+    "naam": "Wilier Filante SL 105 Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/3/23352a7a-e0f4-46f7-b7da-6ab2ecf84617.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/wilier-filante-sl-105-di2"
+  },
+  {
+    "naam": "Wilier Garda 105 Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/0/202db7e0-8ee4-45bc-b36e-5029945485d7.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/wilier-garda-105-di2"
+  },
+  {
+    "naam": "Scott Scale 920 ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/6/86abf9b5-d74c-4d92-add6-fb30a12ab8c8.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-scale-920"
+  },
+  {
+    "naam": "Bianchi Oltre Pro Dura-Ace",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/8/f89e1627-1771-4721-8204-5ce82ac717ed.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/bianchi-oltre-pro-dura-ace"
+  },
+  {
+    "naam": "Bianchi Oltre Race 105",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/5/15d6ad75-2628-4b5b-80ca-9212fccbf25e_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/bianchi-oltre-race-105"
+  },
+  {
+    "naam": "Scott Spark 930",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/c/scott_spark_930_donkergroen_1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/scott-spark-930"
+  },
+  {
+    "naam": "Bianchi Infinito 105 VP",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/5/a519f906-c89c-4847-a3ee-3d0945ef52eb_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/bianchi-infinito-105-vp"
+  },
+  {
+    "naam": "Scott Genius 930",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/9/290141_1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/scott-genius-930"
+  },
+  {
+    "naam": "Trek Top Fuel 9.8 XT Gen 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/i/m/image_59__1_1__2.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-top-fuel-9-8-xt-gen-4"
+  },
+  {
+    "naam": "Stevens E-Circle",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_1_2_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-circle"
+  },
+  {
+    "naam": "Trek Fuel EX 9.8 XT Gen 6",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trek_fuel_ex_9.8_xt_gen_6_zwart_7_4.png",
+    "product_url": "https://www.fietsleaseholland.nl/fuel-ex-9-8-xt-gen-6"
+  },
+  {
+    "naam": "TrekTop Fuel 9.8 GX AXS Gen 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/i/m/image_41__1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/trektop-fuel-9-8-gx-axs-gen-4"
+  },
+  {
+    "naam": "Trek Top Fuel 9 Gen 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/i/m/image_35__1_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-top-fuel-9-gen-4"
+  },
+  {
+    "naam": "Trek Fuel EX 8 GX AXS T-Type Gen 6",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/u/fuel_ex_8_gx_axs_t-type_2024_groen_blanco_1__1_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-fuel-ex-8-gx-axs-t-type-gen-6"
+  },
+  {
+    "naam": "Trek Procalier 9.7 ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trek_procaliber_9.7_carbon_red_smoke-2.jpg_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-procalier-9-7"
+  },
+  {
+    "naam": "Trek Slash 8 Gen 6",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trek_slash8_donkerblauw_1_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-slash-8-gen-6"
+  },
+  {
+    "naam": "Trek Supercaliber SLR 9.8 AXS Gen 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/i/m/image_84__1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-supercaliber-slr-9-8-axs-gen-2"
+  },
+  {
+    "naam": "Trek Supercaliber SL 9.7 AXS Gen 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/i/m/image_82__1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-supercaliber-sl-9-7-axs-gen-2"
+  },
+  {
+    "naam": "Trek Top Fuel 8 Gen 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/o/top_fuel_8_2024_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-top-fuel-8-gen-4"
+  },
+  {
+    "naam": "Supercaliber SL 9.6 Gen 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trek_supercaliber_sl_9.6_gen_2_zw_2_1_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/supercaliber-sl-9-6-gen-2"
+  },
+  {
+    "naam": "Trek Procaliber 9.5 Gen 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/i/m/image_75__1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-procaliber-9-5-gen-3"
+  },
+  {
+    "naam": "Sensa Modena LTD Tiagra Disc",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/c/7ca60d8f-c138-4644-b554-15bb193b0955_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-modena-ltd-tiagra-disc"
+  },
+  {
+    "naam": "Scott Addict RC 30",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/0/305a6a04-f1c0-4a88-887f-95e00e1edfde_2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-addict-rc-30"
+  },
+  {
+    "naam": "Trek Procaliber 9.6 Gen 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/i/m/image_-_2024-08-23t135330.203_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-procaliber-9-6-gen-3"
+  },
+  {
+    "naam": "Trek Procaliber 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/i/m/image_90__2.png",
+    "product_url": "https://www.fietsleaseholland.nl/procaliber-8"
+  },
+  {
+    "naam": "Trek Procaliber 6",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/i/m/image_85__2.png",
+    "product_url": "https://www.fietsleaseholland.nl/procaliber-6"
+  },
+  {
+    "naam": "Trek Marlin 6 Gen 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/m/a/marlin6-24-40962-b-primary_-_rood_blauw.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-marlin-6-gen-3"
+  },
+  {
+    "naam": "Trek Marlin 7 Gen 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trek_marlin_7_gen_3_donkergroen-1_1_.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/marlin-7-gen-3"
+  },
+  {
+    "naam": "Scott Foil RC 20",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/9/b/9b7c2ed4-06c3-4ca1-b1d8-fd9f2c5de11c.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-foil-rc-20"
+  },
+  {
+    "naam": "Scott Foil RC 10",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/e/0ee722f0-10c3-4674-91c9-eef12325fed2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-foil-rc-10"
+  },
+  {
+    "naam": "Cube Litening Aero C:68X SLX",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/b/dbaaeff6-9ea2-4816-b5a6-f987d4216b99_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-litening-aero-c-68x-slx"
+  },
+  {
+    "naam": "Cube Supreme Hybrid Deluxe SLT",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/y/synqup_813700_s_00_1920x1920.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/supreme-hybrid-deluxe-slt"
+  },
+  {
+    "naam": "Supreme Hybrid Comfort SLX",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/u/supreme_hybrid_comfort_slx_-zwart.jpg_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/supreme-hybrid-comfort-slx"
+  },
+  {
+    "naam": "Cube Attain C:62 SLX",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/a/aa2c994c-68b3-4424-b9d0-42a994d0f733_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-attain-c-62-slx"
+  },
+  {
+    "naam": "Cube Attain C:62 Race",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/a/7a9f1aa2-ff80-4563-a139-c2d05b1c676e_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-attain-c-62-race"
+  },
+  {
+    "naam": "Cube Agree C:62 SLT",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/d/ad7093cf-5d61-4016-975b-2cb80fcb4f6f_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-agree-c-62-slt"
+  },
+  {
+    "naam": "Cube Attain C:62 SLT",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/f/6f64e943-8a5e-4c42-af82-c5709f4ae327_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-attain-c-62-slt"
+  },
+  {
+    "naam": "Cube Agree C:62 One",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/3/134027a3-f7e7-493d-8b28-bff596189eda_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-agree-c-62-one"
+  },
+  {
+    "naam": "Cube Supreme Hybrid Deluxe one 625",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/u/supreme_hybrid_deluxe_one_2025-zwart.jpg_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/cube-supreme-hybrid-deluxe-one-625"
+  },
+  {
+    "naam": "Cube Kathmandu Hybrid Pro 800",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/3/4317d9e0-f1aa-4fc7-b5aa-1970f591dc51.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-kathmandu-hybrid-pro-800"
+  },
+  {
+    "naam": "Kalkhoff Image 3 Excite",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/d/2d1b6277-82bd-410a-a61a-fc3f92520b5d.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-image-3-excite"
+  },
+  {
+    "naam": "Kalkhoff Endeavour L Excite 400 ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/h/kh0180002v2024_2024_29_wa_sil_090_pro_endeavour-l-excite_1_1.png",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-endeavour-l-excite-400"
+  },
+  {
+    "naam": "Kalkhoff Entice 5+ Excite ABS",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/7/f7033444_k284v2025_2025_29_wa_gry_090_pro_entice-5-plus-excite-abs_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-entice-5-excite-abs"
+  },
+  {
+    "naam": "Kalkhoff Entice 5 Advance+ Belt",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/2/k285v2025_2025_29_wa_gre_090_pro_entice-5-plus-advance-belt_2.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-entice-5-advance-belt"
+  },
+  {
+    "naam": "Kalkhoff Entice 7 Move+ 600",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/2/k283v2025_2025_27_wa_gre_090_pro_entice-7-plus-move_2.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-entice-7-move-600"
+  },
+  {
+    "naam": "Kalkhoff Entice 5 Advance+",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/2/k286v2025_2025_29_tr_gry_090_pro_entice-5-plus-advance_1_.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-entice-5-advance"
+  },
+  {
+    "naam": "Kalkhoff Endeavour 5 Move+ 2025",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/h/kh0020062v2024_2024_29_di_blu_090_pro_endeavour-5-plus-move.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-endeavour-5-move-2025"
+  },
+  {
+    "naam": "Kalkhoff Image 5 Excite+ ABS",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/h/kh0050091v2023_2024_29_di_blk_090_pro_image-5-plus-excite-abs_4.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-image-5-excite-abs"
+  },
+  {
+    "naam": "Kalkhoff Image 5 Advance+",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/h/kh0050092v2023_2023_29_wa_blk_090_pre_image-5-b-advance-plus_1__4.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-image-5-advance"
+  },
+  {
+    "naam": "Riese & Müller Culture Vario met bagagedrager",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/7/c76bc520-f3ce-4348-96ed-b804ab984171_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/riese-muller-culture-vario-met-bagagedrager"
+  },
+  {
+    "naam": "Riese & Müller Tinker2 Vario",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/5/c5e173ba-0a18-4824-81f5-2078cf1bce7e_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/riese-muller-tinker2-vario"
+  },
+  {
+    "naam": "Riese & Müller Nevo4 GT Touring Core",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/5/c/5c7c8f44-a8e9-42ec-8f99-1e6fb233920d_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/riese-muller-nevo4-gt-touring-core"
+  },
+  {
+    "naam": "Kalkhoff Endeavour 5 Advance+ ABS",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/h/kh0020070v2023_2023_29_tr_gry_090_pre_endeavour-5-b-advance-plus-abs_1__4.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-endeavour-5-advance-abs"
+  },
+  {
+    "naam": "Riese & Müller Culture Silent 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/b/3b16f2c0-4a0d-496a-bc03-59fb27ebe4fd_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/riese-muller-culture-silent-8"
+  },
+  {
+    "naam": "Kalkhoff Endeavour C Move+",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/h/kh0070007v2023_2024_20_ux_sil_090_pro_endeavour-c-b-plus-move_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-endeavour-c-move"
+  },
+  {
+    "naam": "Kalkhoff Image C+ advance",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/d/cdn2.webdamdb_5__2.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/image-c-advance"
+  },
+  {
+    "naam": "Kalkhoff Image 3 Move BLX",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/h/kh0050087v2024_2024_28_di_blk_090_pro_image-3-move-blx_2.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-image-3-move-blx-2025"
+  },
+  {
+    "naam": "Kalkhoff Endeavour 5 Advance+",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/h/kh0020061v2023_2023_29_tr_gry_090_pre_endeavour-5-b-advance-plus_1__4.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-endeavour-5-advance"
+  },
+  {
+    "naam": "Kalkhoff Image 5 Advance+ ABS",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/h/kh0050100v2023_2023_29_di_blk_090_pre_image-5-b-advance-plus-abs_1_4.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/image-5-advance-abs"
+  },
+  {
+    "naam": "Kalkhoff Endeavour L Move 400",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/a/kalkhoff_endeavour_l_move_heren_blauw_1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/endeavour-l-move-400"
+  },
+  {
+    "naam": "Kalkhoff Entice L Advance 400",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/n/entice_l_advance_dames_dark_springs_gloss_1__2.png",
+    "product_url": "https://www.fietsleaseholland.nl/entice-l-advance-400"
+  },
+  {
+    "naam": "Kalkhoff Image L Advance",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/a/kalkhoff_image_l_advance_zwart_dames_1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/image-l-advance"
+  },
+  {
+    "naam": "Gotour 7.43",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/l/flyer-gotour-7.43-gents-blauw_1__4.png",
+    "product_url": "https://www.fietsleaseholland.nl/gotour-7-43"
+  },
+  {
+    "naam": "Flyer Upstreer SL 3.10",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/l/flyer-upstreet-sl-3.10-gents-grijs_1__4.png",
+    "product_url": "https://www.fietsleaseholland.nl/flyer-upstreer-sl-3-10"
+  },
+  {
+    "naam": "Cannondale SuperSix EVO Carbon 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_19_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-supersix-evo-carbon-4"
+  },
+  {
+    "naam": "Cannondale SuperSix EVO Carbon 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_17_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-supersix-evo-carbon-3"
+  },
+  {
+    "naam": "Trek Madone SLR 7 AXS Gen 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_14_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-madone-slr-7-axs-gen-8"
+  },
+  {
+    "naam": "Trek Madone SLR 9 AXS Gen 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_4_1_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-madone-slr-9-axs-gen-8"
+  },
+  {
+    "naam": "Trek Madone SL6 Gen 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_6_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-madone-sl6-gen-8"
+  },
+  {
+    "naam": "Dual Sport+ 2 LT",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/i/m/image_-_2024-08-15t113206.495.png",
+    "product_url": "https://www.fietsleaseholland.nl/dual-sport-2-lt"
+  },
+  {
+    "naam": "District+ 2 Belt",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/i/district_2_belt_dames_black_2025_1__2.png",
+    "product_url": "https://www.fietsleaseholland.nl/district-2-belt"
+  },
+  {
+    "naam": "Trek FX+ 2 LT",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trek_fx_2_lt_heren_zwart_2.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-fx-2-lt"
+  },
+  {
+    "naam": "Cortina E-U4 Family Bosch Smart",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/b/1b90ec0a-e017-4bbc-81b7-d9e146a2c399.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-e-u4-family-bosch-smart"
+  },
+  {
+    "naam": "VOK XL",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/7/e7e0c431-9d40-47fd-aeda-0748746e02d0_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/vok-xl"
+  },
+  {
+    "naam": "VOK U",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/5/65707bd0-1ec3-4416-b75c-c29856e1065a_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/vok-u"
+  },
+  {
+    "naam": "VOK S",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/b/db333422-28d1-47a5-8724-d6a8f6cefbf1_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/vok-s"
+  },
+  {
+    "naam": "Cortina E-Tide FM",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/o/cortina_e-tide_fm_dames_blauw_1_6.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-e-tide-fm"
+  },
+  {
+    "naam": "Cortina E-Fello",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/e/cefelloplus0001_1_1_4.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-e-fello"
+  },
+  {
+    "naam": "Cortina E-Tide Bosch Smart",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/o/cortina_e-tide_mm_dames_zwart_1_6.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-e-tide-mm"
+  },
+  {
+    "naam": "Koga E-F3 Supermetro",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/9/f/9ffeb6e0-1bd8-4b59-9c82-34a4fcd3a299_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/koga-e-f3-supermetro"
+  },
+  {
+    "naam": "Koga E-F3 5.0",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/9/d/9df2ac13-23e2-4617-a777-a9dac11cfcd2_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/koga-e-f3-5-0"
+  },
+  {
+    "naam": "Koga E-F3 6.0",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/c/4c7ece87-92e0-44aa-8ada-aa5c2c836cfe.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/koga-e-f3-6-0"
+  },
+  {
+    "naam": "Koga Evia PT Pro Automatic",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/9/294fa626-9f93-4735-af25-1975fb77535d_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/koga-evia-pt-pro-automatic"
+  },
+  {
+    "naam": "Koga Evia PT Pro",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/0/b0cc45dd-61da-4c8c-b881-de1730838208_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/koga-evia-pt-pro"
+  },
+  {
+    "naam": "Cortina E-Common Integrated",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/-/e-common_groen.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-e-common-integrated-db7-activeline-plus"
+  },
+  {
+    "naam": "Gazelle Eclipse T11 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/e/0e8f2828-84aa-428b-9af3-7346d0357a14_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-eclipse-t11-hmb"
+  },
+  {
+    "naam": "Gazelle Avignon C5 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/f/bf546088-e3a2-4692-848b-eba1d6dccd68_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-avignon-c5-hmb"
+  },
+  {
+    "naam": "Gazelle Easyflow C7 HMS",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/5/1/51ae3ac6-8938-4259-8219-92956c9d1b21_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-easyflow-c7-hms"
+  },
+  {
+    "naam": "Eclipse C380 HMB Limited",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/d/1da2d433-8a29-43a9-a8c4-b180f2bf593d.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/eclipse-c380-hmb-limited"
+  },
+  {
+    "naam": "Batavus Finez E-go Power Exclusive Plus Smart",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/a/batavus_finez_e-go_power_exclusive_plus_smart_dames_groen_1_.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/finesz-e-go-power-exclusive-plus-smart"
+  },
+  {
+    "naam": "Batavus Altura E-Go Smart",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/a/batavus_altura_e-go_smart_dames_zwart_4.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/altura-e-go-smart"
+  },
+  {
+    "naam": "Gazelle Bloom C310 HMS",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/f/7fc26a96-6d34-4166-9c8f-7a95f4c18647_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-bloom-c310-hms"
+  },
+  {
+    "naam": "Gazelle HeavydutyNL C7+ HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/f/6fdb9e84-a041-49eb-9e8d-574a298143e3_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/heavydutynl-c7-hmb"
+  },
+  {
+    "naam": "BAAS Novel Gravel",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/e/be55e7d7-f372-4c15-a8c9-c9f16cb1f77a_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/baas-novel-gravel"
+  },
+  {
+    "naam": "BAAS Novel Aero",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/a/baas_novel_aero_ml_-_pearl_white_-_smoke_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/baas-novel-aero"
+  },
+  {
+    "naam": "Sparta A-Lane Fit",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/0/20cdcd80-5954-4c42-807c-fe46dd48886a_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sparta-a-lane-fit"
+  },
+  {
+    "naam": "Giant Voya E+ 2 ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/3/03fc999b-941c-4df0-bbbf-bdffafe970c3_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-voya-e-2-2025"
+  },
+  {
+    "naam": "Giant TCR Advanced Pro 0 ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/a/0a44b4ff-1383-4498-9b5f-8696d81669fc_2__3.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-tcr-advanced-pro-0"
+  },
+  {
+    "naam": "Giant TCR Advanced 2 ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/3/73abc4e6-dba6-490a-b9ac-5461f6d1d121_1__2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-tcr-advanced-2"
+  },
+  {
+    "naam": "Giant TCR Advanced 1 ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/f/8f69a6ed-ec3f-4d91-9f4c-a3354abcb589_1_.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-tcr-advanced-1"
+  },
+  {
+    "naam": "Giant TCR Advanced ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/f/8f69a6ed-ec3f-4d91-9f4c-a3354abcb589_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-tcr-advanced"
+  },
+  {
+    "naam": "Giant TCR Advanced 0 ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/f/4ff8ffdc-1ed2-4090-bf9e-7a024098d771_1_.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-tcr-advanced-0"
+  },
+  {
+    "naam": "Orbea Terra H40 ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/3/c350371b-afcc-4075-b093-5b037fad6036_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/orbea-terra-h40"
+  },
+  {
+    "naam": "Giant Revolt Advanced 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/a/ea4e10d3-77de-4c50-9d0f-768de1ea2ee8_1__1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-revolt-advanced-3-2025"
+  },
+  {
+    "naam": "Giant Revolt Advanced 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/7/f7599685-b84b-45f4-bc1d-f037baa31e16_2__1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-revolt-advanced-2"
+  },
+  {
+    "naam": "Giant Revolt Advanced 0",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/9/09cfedea-e3ea-4251-9cb5-95038c9e6523.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-revolt-advanced-0"
+  },
+  {
+    "naam": "Giant Revolt 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/6/16f149bc-e9f6-4b4f-9805-de920a1e5614_1_.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-revolt-1"
+  },
+  {
+    "naam": "Giant Revolt 0",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/5/a/5aec71e3-92fc-48c4-ac4c-ec9f9419233c.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-revolt-0"
+  },
+  {
+    "naam": "Giant Propel Advanced 1 2025 ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/b/8bae63ee-91cc-441c-852d-5b8e31c9dd00_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-propel-advanced-1-2025"
+  },
+  {
+    "naam": "Giant Expression E+ 0",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/1/c1a2e2b8-4a68-4c37-b578-38faaa1a6cb2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-expression-e-0"
+  },
+  {
+    "naam": "Giant Defy Advanced 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/9/39f2e2a9-f84d-4b03-95b6-32818b09597d_1_.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-defy-advanced-2"
+  },
+  {
+    "naam": "Giant Defy Advanced 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/f/8f9670ed-7c86-422b-99d0-f1c62c1eee26_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-defy-advanced-1"
+  },
+  {
+    "naam": "Giant Attend CS 3 ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/0/e0d78591-4e83-444f-90ed-14639e09f8a1_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-attend-cs-3"
+  },
+  {
+    "naam": "Giant AnyTour E+ 6",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/1/f1426bdc-94e8-4771-8272-5a187dc0147f_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-anytour-e-6"
+  },
+  {
+    "naam": "Giant AnyTour E+ 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/a/2ab8340e-9773-4e65-bb43-bd449cc5e287.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-anytour-e-3"
+  },
+  {
+    "naam": "Stromer ST3 Pinion",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/4/74433f17-9bb7-4230-903a-5ca2bbc57ec5.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stromer-st3-pinion"
+  },
+  {
+    "naam": "Gazelle Eclipse Speed HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/1/21689db9-43a2-4b0e-a480-d7e096716b84.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-eclipse-speed-hmb"
+  },
+  {
+    "naam": "Van Raam Easyrider Compact",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/f/ff1fc680-2247-4ea2-8cd1-74d8d9a8f53f.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/senzup-easyride-compact"
+  },
+  {
+    "naam": "Pfautec Roma",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/5/f58a4bcc-35cf-474f-a325-6272afe5fd5a.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/senzup-roma"
+  },
+  {
+    "naam": "Pfautec Spirit",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/a/1a894551-8182-4de5-8f7e-b153f225fb45.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/senzup-spirit"
+  },
+  {
+    "naam": "Urban Arrow FamilyNext",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/2/d2d9c9dd-d02b-446b-82e0-40784dc8b51f_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/urban-arrow-familynext"
+  },
+  {
+    "naam": "Cube Attention SLX",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/7/37501329-5449-48d2-a33d-52d910745d23_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-attention-slx-2025"
+  },
+  {
+    "naam": "Kalkhoff Image 3 Excite BLX",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/8/786eec21-59cc-4a66-ba12-75f87ce2ea8f_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-image-3-excite-blx"
+  },
+  {
+    "naam": "Kalkhoff Image 5 Excite+ BLX",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/a/kalkhoff_image_5_excite_heren_donkerblauw_4.png",
+    "product_url": "https://www.fietsleaseholland.nl/kalkhoff-image-5-excite-blx"
+  },
+  {
+    "naam": "Gazelle Makki Travel HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/0/b017f1e2-32ce-42f9-9617-47ee47ef1b50_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-makki-travel-hmb"
+  },
+  {
+    "naam": "Tenways CGO600 Pro",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/m/i/midnight_black-1_4_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-cgo600-pro"
+  },
+  {
+    "naam": "Stevens E-Brione Luxe",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/9/0934893e-25b8-4fc0-9174-d0f8c590cf6a.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-brione-luxe"
+  },
+  {
+    "naam": "Stevens E-Courier PT5",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/1/813f82c5-b0de-44d9-87b8-93a874060830_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-courier-pt5"
+  },
+  {
+    "naam": "Stevens E-Brione",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/d/3dd01a6d-39e5-4959-a03c-30ec2b2071cd.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/stevens-e-brione"
+  },
+  {
+    "naam": "Trek Madone SLR 7 Gen 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/d/bdbbd214-5bf9-49ea-9204-4b7b15a25935.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-madone-slr-7-gen-8"
+  },
+  {
+    "naam": "Trek Madone SL 7 Gen 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/2/2259426a-6b6e-4751-bbb7-9c81ae6f4339.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-madone-sl-7-gen-8"
+  },
+  {
+    "naam": "Trek Madone SL 6 AXS Gen 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_10_1_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-madone-sl-6-axs-gen-8"
+  },
+  {
+    "naam": "Trek Madone SL 6 Gen 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/2/b21864b5-3772-44da-8ecf-c50dc7934970_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-madone-sl-6-gen-8"
+  },
+  {
+    "naam": "Trek Domane AL 5 Gen 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/5/855b496b-562e-4505-baa1-ea30f6fa9a37_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-domane-al-5-gen-4"
+  },
+  {
+    "naam": "Pinarello F5 105 Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/p/i/pinarello_f5_105_di2_rood_1.jpg_3.png",
+    "product_url": "https://www.fietsleaseholland.nl/pinarello-f5-105-di2"
+  },
+  {
+    "naam": "Orbea Orca Aero M30LTD",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/9/7/971284f0-aaf0-4f33-a04f-84e37573599f_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/orbea-orca-aero-m30ltd"
+  },
+  {
+    "naam": "Orbea Orca M20iLTD",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/a/4a682d2b-1b06-42a3-be37-8ec6bdea62da_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/orbea-orca-m20iltd"
+  },
+  {
+    "naam": "Orbea Orca M30iLTD PWR",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/e/0e949442-7d8d-4c00-a1ef-2e83879b95f7_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/orbea-orca-m30iltd-pwr"
+  },
+  {
+    "naam": "Orbea Orca M30i",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/5/b500b44f-2ef7-42e8-ace5-0567c57cd84f_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/orbea-orca-m30i"
+  },
+  {
+    "naam": "Orbea Orca Aero M30iLTD",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/c/ac7faa46-07db-4c44-95ed-4d691c949b8d.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/orbea-orca-aero-m30iltd"
+  },
+  {
+    "naam": "Orbea Orca M35",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/5/25cce997-566b-4f98-9897-3e6dd21c7abb.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/orbea-orca-m35"
+  },
+  {
+    "naam": "Orbea Orca Aero M20iLTD",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/b/8ba32d24-15a5-4366-8eb2-691578e68ddc_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/orbea-orca-aero-m20iltd"
+  },
+  {
+    "naam": "Koga Kinsei Prestige",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/5/2/52daa1f5-8127-482e-a01a-0f5363eb76b3_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/koga-kinsei-prestige"
+  },
+  {
+    "naam": "Koga Kinsei Premium",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/5/652bd347-66b0-4c87-873a-66ba262903ba_2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/koga-kinsei-premium"
+  },
+  {
+    "naam": "Cortina E-U4 Family Voorwielmotor",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/4/34fabd9f-b3ce-4e27-b25c-9b0ea78b5612.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-e-u4-family-fm"
+  },
+  {
+    "naam": "Haibike AllTrack 10",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/f/0f0359ec-6cc9-4fab-ad54-63820ef3372b.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/haibike-alltrack-10"
+  },
+  {
+    "naam": "Haibike Adventr FS 9",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/4/f4c7487e-5903-47f1-a8f2-88f7cf06946d_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/haibike-adventr-fs-9-720-wh"
+  },
+  {
+    "naam": "Haibike Alltrail 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/c/cc549c2b-0735-4941-9ace-482e9300fe13.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/haibike-alltrail-4"
+  },
+  {
+    "naam": "Haibike HardNine 9",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/5/e5fe38cd-d599-41fa-8a3d-23c94009f77f.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/haibike-hardnine-9"
+  },
+  {
+    "naam": "Haibike Trekking 5",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/f/6f0bd10b-c7f5-49c5-9041-e8905735d78e.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/haibike-trekking-5"
+  },
+  {
+    "naam": "Haibike Trekking 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/4/442e6ad3-88e8-4a9b-9c4a-c5a44a13c4a6_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/haibike-trekking-4"
+  },
+  {
+    "naam": "Scott Speedster Gravel 40",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/5/053ee54f-6914-41ed-ad13-0f3a5097691d_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-speedster-gravel-40"
+  },
+  {
+    "naam": "Merida Scultura 4000",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/3/c3d0c01f-9797-47b2-9f93-e5ac8f6d3106.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/merida-scultura-4000"
+  },
+  {
+    "naam": "Cannondale Mavaro Neo 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/a/cannondale_mavaro_neo_2025_1.jpg_2_.png",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-mavaro-neo-1"
+  },
+  {
+    "naam": "Tenways Ago T",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/g/ago_t_jungle_green-1.png",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-ago-t"
+  },
+  {
+    "naam": "Bianchi Oltre Comp Ultegra Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/7/a7ec8d8f-4ae5-4d88-b685-0e1e3abbd4ba_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/bianchi-oltre-comp-ultegra-di2"
+  },
+  {
+    "naam": "Bianchi Sprint 105",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/6/a61b1237-628b-430e-8520-ba19077800bb_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/bianchi-sprint-105"
+  },
+  {
+    "naam": "Bianchi Oltre Race 105 Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/e/6e46a1dd-2b6c-40bb-9ed1-7190b19ad5bc_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/bianchi-oltre-race-105-di2"
+  },
+  {
+    "naam": "Bianchi Sprint 105 Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/1/81a6336c-bd65-401c-9a83-5e83f630b7b5_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/bianchi-sprint-105-di2"
+  },
+  {
+    "naam": "Bianchi Specialissima Pro Ultegra Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/3/a387f53b-aa9a-4fb1-b56c-44e98dbe579f_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/bianchi-specialissima-pro-ultegra-di2"
+  },
+  {
+    "naam": "Ridley Kanzo A GRX400",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/5/25a41a5a-0dd7-4765-bc2c-f596eca14dab_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/ridley-kanzo-a-grx400"
+  },
+  {
+    "naam": "Cortina E-Common Family Integrated",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/b/7b5ad7fe-6a4c-4da9-8971-1231c28e8f59.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-e-common-family-integrated"
+  },
+  {
+    "naam": "Winora Yucatan 10",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/1/e136711f-87a0-4aeb-adc3-91f0469f987c_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/winora-yucatan-10"
+  },
+  {
+    "naam": "Winora E-Flitzer",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/2/a245e584-1241-4d9e-b840-7dcb9e64ab64_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/winora-e-flitzer"
+  },
+  {
+    "naam": "Winora Yucatan 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/3/c328e3d6-fa31-4bfd-8f10-78dc92cd0a75_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/winora-yucatan-8"
+  },
+  {
+    "naam": "Winora Yucatan R8F Belt",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/d/bd405f55-65b8-481c-8054-28e68d3d934b_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/winora-yucatan-r8f-belt"
+  },
+  {
+    "naam": "Winora Tria 10",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/c/8c3001be-7e8e-4941-94cd-74e5bcb9ef68.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/winora-tria-10"
+  },
+  {
+    "naam": "Winora Sinus N5F",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/f/1f95ac8c-122b-4253-8a6e-7c1a0c72fce0_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/winora-sinus-n5f"
+  },
+  {
+    "naam": "Winora Sinus R8F ECO",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/e/8eb22c94-f8a1-45ce-ad7f-3f8de311164a_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/winora-sinus-r8f-eco"
+  },
+  {
+    "naam": "Winora Sinus N8F",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/d/7d6efe9f-59d8-4a51-b1e2-f6c65884e466_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/winora-sinus-n8f"
+  },
+  {
+    "naam": "Sparta a-Shine Energy",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/2/62562bd1-4523-4896-8ddd-b2599628dff4_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sparta-a-shine-energy"
+  },
+  {
+    "naam": "Tenways CGO009",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/n/e/new_cgo009_blauw.png",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-cgo009"
+  },
+  {
+    "naam": "Tenways Cargo One",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/a/cargo_one_tenways0953.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-cargo-one"
+  },
+  {
+    "naam": "Cannondale Wonderwagen Neo 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/0/80d660ff-b219-4515-bd40-686a4e8f3564_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-wonderwagen-neo-2"
+  },
+  {
+    "naam": "Batavus Finez E-Go Power Exclusive Smart",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/8/18357d73-3492-4a39-a05c-518103fdbc64.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-finez-e-go-power-exclusive-smart"
+  },
+  {
+    "naam": "Batavus Altura E-Go Plus Smart",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/a/da8bb4da-54e9-4a40-b31d-60e3b8cf1d02.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/altura-e-go-plus-smart"
+  },
+  {
+    "naam": "Gazelle Eclipse C380 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/6/f687d35f-0059-4042-8afd-5cb33a88ee0a_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-eclipse-c380-hmb"
+  },
+  {
+    "naam": "Cortina E-lett",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/o/cortina_e-lett_19_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-e-lett"
+  },
+  {
+    "naam": "Liv EnviLiv Advanced 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/2/d2136d4f-42c5-4f33-8b21-f5117dfb0190.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/liv-enviliv-advanced-1"
+  },
+  {
+    "naam": "Klever Y Gala 45",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/e/1ee22e93-5ff3-45b6-8b26-41cc9abeaf8c_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/klever-y-muse-45"
+  },
+  {
+    "naam": "Klever N Pinion 45",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/6/d6464f0e-8791-4661-9cc7-30a4b6dbe9f5.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/klever-n-pinion-45"
+  },
+  {
+    "naam": "Klever X Speed",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/6/463adfae-00c4-458c-ae04-3e49b764ba72_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/klever-x-speed"
+  },
+  {
+    "naam": "Scott Spark 910",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/e/8e6824bb-327a-4775-aca8-63e3d8c362de.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-spark-910"
+  },
+  {
+    "naam": "Scott Metrix 20",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/7/17774d35-41c2-4591-bc51-cc538d52efcb.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-metrix-20"
+  },
+  {
+    "naam": "Gazelle Orange C8+ HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/4/a4340d6f-3e28-4537-bcd9-a4d99c094804_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-orange-c8-hmb"
+  },
+  {
+    "naam": "Giant Propel Advanced Pro 0",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/4/d449bf73-c0eb-4c2b-ac2b-2bdf25c570a8.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-propel-advanced-pro-0-axs"
+  },
+  {
+    "naam": "Sensa Romagna Gravel",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/3/a347c1ba-430c-4866-83b0-c7fd1a37a860.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-romagna-gravel"
+  },
+  {
+    "naam": "Cannondale Bad Boy 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/9/d9cbf0d5-139a-4000-9256-135029f0d1b2.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-bad-boy-3"
+  },
+  {
+    "naam": "Trek District 3 EQ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/r/artpic_public_l_3000010_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-district-3-eq"
+  },
+  {
+    "naam": "Giant Contend AR 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/7/b7d634d7-7b95-4d32-94a2-f97d2a2fa4a7_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-contend-ar-1"
+  },
+  {
+    "naam": "Giant Propel Advanced 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/5/f/5ff7ddac-2307-42dc-b89d-9584abfc20c2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-propel-advanced-2"
+  },
+  {
+    "naam": "Giant Anytour CS 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/5/b50b9db9-02d8-4eb3-8979-5c4aaf8fd6ee_2_.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-anytour-cs-3"
+  },
+  {
+    "naam": "Cortina Mozzo N7 Belt",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/o/cortina_mozzo_n7_belt_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-mozzo-n7-belt"
+  },
+  {
+    "naam": "Batavus PACKD 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/a/batavus_packd_zwart_dames.jpg_3.png",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-packd-3"
+  },
+  {
+    "naam": "Giant Anytour CS 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/m/y/my21anytourcs1gblmetallicblack.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/giant-anytour-cs-1"
+  },
+  {
+    "naam": "Koga F3 5.0",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/s/ks5lr022_f2fbc89bc7.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/koga-f3-5-0"
+  },
+  {
+    "naam": "Koga Supermetro 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/k/o/koga_supermetro_8_heren_blauw_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/koga-supermetro-8"
+  },
+  {
+    "naam": "Batavus Fonk N3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/a/batavus_fonk_n3_2025_heren_zwart_mat-1.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-fonk-n3"
+  },
+  {
+    "naam": "Trek Dual Sport 2 Equipped",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/c/3c1d2ce8-0176-4d1e-9814-bc7d559ca04c_1_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-dual-sport-2-equipped"
+  },
+  {
+    "naam": "Trek Fuel EX 8 Gen 6",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/u/fuelex8_23_36348_a_primary_1.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-fuel-ex-8-gen-6"
+  },
+  {
+    "naam": "SCOTT METRIX 30 EQ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/c/scott_metrix.png",
+    "product_url": "https://www.fietsleaseholland.nl/scott-metrix-30-eq"
+  },
+  {
+    "naam": "Trek Dual Sport 3 Equipped",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trek_dual_sport_3_heren_1.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-dual-sport-3-equipped"
+  },
+  {
+    "naam": "Flyer Gotour 7.23",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/0/608fb83f-bc42-4574-bbd1-38b1b7e8b859_2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/flyer-gotour-7-23"
+  },
+  {
+    "naam": "Cortina U4 Transport 3v",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/o/cortina_u4_r3_2024_heren_zijaanzicht_3_.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-u4-transport-3v"
+  },
+  {
+    "naam": "Cortina Common Family",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/o/cortina_common_family_dames_black_gold_matt_1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-common-family"
+  },
+  {
+    "naam": "Gazelle Chamonix S8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/g/a/gazelle_chamonix_s8_2024_heren_1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-chamonix-s8"
+  },
+  {
+    "naam": "Trek Domane SL 6 Gen 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_8_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-domane-sl-6-gen-4"
+  },
+  {
+    "naam": "Trek Domane SL 7 Gen 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/f/afbeelding_13_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-domane-sl-7-gen-4"
+  },
+  {
+    "naam": "Gazelle Esprit C",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/y/eyjidwnrzxqioijmdnmtchjvzhvjdglvbiisimtlesi6invwbg9hzhncl2dhemvsbgutc3rhzhnmawv0c2vuxc9lc3byaxqtyy0ymdixxc9nyxplbgxllwvzchjpdgmtmjaymc1ozxjlbi16d2fydg1hdc1nyxplbgxlc3rhzhnmawv0c2vulxppamthbnqucg5niiw_1.png",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-esprit-c"
+  },
+  {
+    "naam": "Batavus PACKD 7",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/y/eyjidwnrzxqioijmdnmtchjvzhvjdglvbiisimtlesi6invwbg9hzhncl2jhdgf2dxmtdhjhbnnwb3j0zmlldhnlblwvcgfja2qtny0ymdixxc9iyxrhdnvzlxbhy2tknziwmjetzgftzxmtendhcnrtyxqtymf0yxz1c3ryyw5zcg9ydgzpzxrzzw4tmdeuanbniiw_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-packd-7"
+  },
+  {
+    "naam": "Trek District 4 EQ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/i/district_4_eq_heren_deep_black_satin_2024_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-district-4-eq"
+  },
+  {
+    "naam": "Batavus Dinsdag Sport 30",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/y/eyjidwnrzxqioijmdnmtchjvzhvjdglvbiisimtlesi6invwbg9hzhncl2jhdgf2dxmtahlicmlkzs1mawv0c2vuxc9kaw5zzgfnlxnwb3j0ltmwltiwmjjcl0jhdgf2dxmtrgluc2rhz1nwb3j0mzaymdiyluhlcmvulvp3yxj0luh5ynjpzgvgawv0c2vulmpwzyi_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-dinsdag-sport-30"
+  },
+  {
+    "naam": "Trek Checkpoint SL 7 AXS Gen 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/c/ec6ade68-5ad5-47f7-bc81-3b1dbf6240f4.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-checkpoint-sl-7-2023"
+  },
+  {
+    "naam": "Riese & Müller Nevo4 GT Vario Kiox",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/d/dd5bc2e1-d10a-4739-85ba-dab487660802_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/riese-muller-nevo4-gt-vario-kiox"
+  },
+  {
+    "naam": "Riese & Müller Charger4 GT Vario Kiox",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/f/dfc41263-d536-4bbe-8f6e-c11fe330eab6_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/riese-muller-charger4-gt-vario-kiox"
+  },
+  {
+    "naam": "Trek District+ 5",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/9/e963515d-48e8-4c14-9cb8-70e25756a9fd_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-district-5"
+  },
+  {
+    "naam": "Koga Pace B05 Suspension",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/b/3bfd38fb-0573-4664-b58d-493fa327ad36_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/koga-pace-b05-suspension"
+  },
+  {
+    "naam": "Koga E-WorldTraveller Suspension",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/d/6d2272b3-a354-4b7f-8d06-0c43a09d3d9a_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/koga-e-worldtraveller-rigid"
+  },
+  {
+    "naam": "Koga Pace B10 Suspension",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/0/b00e1e2b-7d3a-4f23-b01b-810485d0580e_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/koga-pace-b10-suspension"
+  },
+  {
+    "naam": "Stromer ST2 Pinion",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/t/stromer_st2_pinion_heren_grijs_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/stromer-st2-pinion"
+  },
+  {
+    "naam": "Scott Aspect eRide 900",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/9/290576_1915462_3.png",
+    "product_url": "https://www.fietsleaseholland.nl/scott-aspect-eride-900"
+  },
+  {
+    "naam": "Scott Asepct eRide 940",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/9/290581.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-asepct-eride-940"
+  },
+  {
+    "naam": "Scott Aspect eRide 950",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/9/290582_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/scott-aspect-eride-950"
+  },
+  {
+    "naam": "Cannondale Trail Neo 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/2/c21_c61251m_trailneo2_mat_pd_497b.png",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-trail-neo-2"
+  },
+  {
+    "naam": "Trek Fuel Exe 9.7",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/2/a2a2fd6e-09c2-4cb4-b325-6c0c6cd0929d_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-fuel-exe-9-7"
+  },
+  {
+    "naam": "Trek Rail 5 Deore Gen 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/2/3241b375-ae75-4e64-bd29-b27888a5beac_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-rail-5-deore-gen-3"
+  },
+  {
+    "naam": "Trek Powerfly Sport 4 EQ Gen 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/m/emth_tk39pfs4g3eq_trek-powerfly-sport-4-equipped-gen3-matte-black-gloss-red-il.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-powerfly-sport-4-eq-gen-3"
+  },
+  {
+    "naam": "Cannondale Scalpel Carbon 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/2/c24_c24403u_scalpel_crb_3_tsk_pd.jpg_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-scalpel-carbon-3"
+  },
+  {
+    "naam": "Cannondale Habit LT 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/a/cannondale-cannondale-habit-lt-ltd-2023.png",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-habit-lt-2"
+  },
+  {
+    "naam": "Cannondale Trail Sl 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/o/i/oip_2_.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-trail-sl-1"
+  },
+  {
+    "naam": "Cannondale Trail SL 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trail-sl2-midnight-blue-918074.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-trail-sl-2"
+  },
+  {
+    "naam": "Focus Raven 8.8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/9/b9b36a2c-d26b-4968-809a-8129766bc514_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/focus-raven-8-8"
+  },
+  {
+    "naam": "Sensa Merano Evo Race",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/2/s23m44mrmg-merano-evo-race_864x525.png",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-merano-evo-race"
+  },
+  {
+    "naam": "Trek Fetch+ 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/f/ffc5fe04-82fc-4af1-8cdc-74002f4a0155_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-fetch-4"
+  },
+  {
+    "naam": "Cube Cargo Hybrid",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/e/1ec23778-8f76-47f1-8f88-d4be7cbc883e.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-cargo-hybrid"
+  },
+  {
+    "naam": "Batavus Fier 3 Enviolo",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/y/eyjidwnrzxqioijmdnmtchjvzhvjdglvbiisimtlesi6invwbg9hzhncl0jhdgf2dxmtymfrzmlldhnlblwvqmf0yxz1cy1gawvyltmtrw52aw9sby1ad2fydc5qcgcilcjlzgl0cyi6eyjyzxnpemuionsizml0ijoiy29udgfpbiisindpzhroijo5njasimhlawdodci6bn_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-fier-3-enviolo"
+  },
+  {
+    "naam": "Batavus Fier 2 Enviolo",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/y/eyjidwnrzxqioijmdnmtchjvzhvjdglvbiisimtlesi6invwbg9hzhncl2jhdgf2dxmtzwxla3ryaxnjagutzmlldhnlblwvzmllci0ylwvudmlvbg8tmjaymlwvymf0yxz1cy1mawvymmvudmlvbg8tmjayms11bmlzzxgtendhcnqtymf0yxz1cy1lbgvrdhjpc2nozs1iyw.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-fier-2-enviolo"
+  },
+  {
+    "naam": "Gazelle Makki Load",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/6/4668568a-6c7e-4d90-8dbb-fcd6360df42b.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-makki-load"
+  },
+  {
+    "naam": "Urban Arrow Tender",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/u/a/ua_tender_2500_flatbed_square_web_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/urban-arrow-tender"
+  },
+  {
+    "naam": "Urban Arrow Shorty Business",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/2/2233111-t4-f1_web.png",
+    "product_url": "https://www.fietsleaseholland.nl/urban-arrow-shorty-business"
+  },
+  {
+    "naam": "Urban Arrow Cargo",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/u/a/ua_cargo_l_black_alubox_black_web.png",
+    "product_url": "https://www.fietsleaseholland.nl/urban-arrow-cargo"
+  },
+  {
+    "naam": "Scott Spark 940",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/c/scott_spark_940_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/scott-spark-940"
+  },
+  {
+    "naam": "Scott Spark 950",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/c/scott_spark_950_grijs_1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/scott-spark-950"
+  },
+  {
+    "naam": "Scott Scale 910",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/c/scott-scale-910-1411609.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-scale-910"
+  },
+  {
+    "naam": "Scott Scale RC Team",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/c/scott-scale-rc-teambike.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-scale-rc-team"
+  },
+  {
+    "naam": "Scott Scale 925",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/c/scott-scale-925-1411772.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-scale-925"
+  },
+  {
+    "naam": "Scott Scale 930",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/9/290170_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/scott-scale-930"
+  },
+  {
+    "naam": "Scott Spark 970",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/c/scott_spark_970_zilver_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/scott-spark-970"
+  },
+  {
+    "naam": "Scott Scale 965",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/c/scott_scale_965_blauw_1_1_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/scott-scale-965"
+  },
+  {
+    "naam": "Scott Aspect 950 EQ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/c/scott-aspect-950-eq.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-aspect-950-eq"
+  },
+  {
+    "naam": "Trek Procaliber 9.7",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trek_procaliber_9.7_carbon_red_smoke-2.jpg_3__2.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-procaliber-9-7"
+  },
+  {
+    "naam": "Trek Top Fuel 5 Gen 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trek_top_fuel_5_gen_4_2025_grijs_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-top-fuel"
+  },
+  {
+    "naam": "Trek Roscoe 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/r/o/roscoe_8_blauw_1_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-roscoe-8"
+  },
+  {
+    "naam": "Trek Procaliber 9.5",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/4/a451ccb6-b784-420c-8ef1-22ad19da4f9c.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-procaliber-9-5"
+  },
+  {
+    "naam": "Trek Roscoe 7",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/r/o/roscoe7-24-35116-a-primary_2_1_.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-roscoe-7"
+  },
+  {
+    "naam": "Trek X-Caliber 8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/y/eyjidwnrzxqioijmdnmtchjvzhvjdglvbiisimtlesi6invwbg9hzhncl3ryzwstbw91bnrhaw5iawtlc1wvwc1dywxpymvyidggmjaym1wvvhjlay1yq2fsawjlcjgtmjaymy1vbmlzzxgtr3jpanmtvhjla01vdw50ywluymlrzxmtemlqa2fudc5qcgcilcjlzgl.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-x-caliber-8"
+  },
+  {
+    "naam": "Merida Scultura 5000",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/9/5/95e66aa3-cba3-410f-9dd4-04bfab7a249f_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/merida-scultura-5000-2023"
+  },
+  {
+    "naam": "Cube Agree C:62 SLX",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/5/75480940-59a6-4f22-b61d-93536a73df03.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-agree-c-62-slx"
+  },
+  {
+    "naam": "Cube Agree C:62 Race",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/1/a1f040c4-04a2-4e00-8b7e-40093e54c2dc.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-agree-c-62-race-2023"
+  },
+  {
+    "naam": "Cube Agree C:62 Pro",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/a/8a6a37db-137b-40c4-bcc8-c3d64ed15e37_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-agree-c-62-pro"
+  },
+  {
+    "naam": "Cube Attain SLX",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/5/c58a7476-1b2f-4db8-bc5b-c9bb6b80bd69.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-attain-slx"
+  },
+  {
+    "naam": "Cube Attain Race",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/5/252e7e27-7b41-43b5-85f3-9f51be62dee3_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-attain-race-2023"
+  },
+  {
+    "naam": "Cube Attain Pro",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/9/0/90f43877-4282-4913-a716-5db4cfd59575.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cube-attain-pro-2023"
+  },
+  {
+    "naam": "Scott Addict 10",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/d/eddc57ee-b369-4b79-a0f9-35be12f5b6f4_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-addict-10-2023"
+  },
+  {
+    "naam": "Sensa Giulia GF 105 Di2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/2/s23c-giulia-gf-dark-brush_864x525.png",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-giulia-gf-105-di2"
+  },
+  {
+    "naam": "Sensa Giulia Evo Ultegra Special",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/2/s23r89edmb-giulia-evo-disc-ultegra-special_864x525.png",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-giulia-evo-ultegra-special"
+  },
+  {
+    "naam": "Sensa Giulia G3 Disc 105",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/c/cc236326-5f5a-4927-8326-ecc3efe5e5cf.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-giulia-g3-disc-105-2023"
+  },
+  {
+    "naam": "Sensa Romagna SLE Disc",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/2/s23r75rdmb-romagna-disc-sle_864x525.png",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-romagna-sle-disc"
+  },
+  {
+    "naam": "Sensa Latina LTD Tiagra Disc",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/9/8/98a9c5ff-a5c4-4265-a7ed-d06accbd5b26_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-latina-ltd-tiagra-disc-2023"
+  },
+  {
+    "naam": "Sensa Romagna Comp",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/2/s2272rc10mb_-_romagna_comp.png",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-romagna-comp"
+  },
+  {
+    "naam": "Sensa Latina LTD 105",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/l/a/latina_105_disc_1_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-latina-ltd-105"
+  },
+  {
+    "naam": "Sensa Romagna Tiagra",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/2/s23r71rtmb-romagna-tiagra_864x525.png",
+    "product_url": "https://www.fietsleaseholland.nl/sensa-romagna-tiagra"
+  },
+  {
+    "naam": "Cannondale Caad Optimo 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/6/e/6e92e314-6e72-4172-9d92-133f4bdcb623.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-caad-optimo"
+  },
+  {
+    "naam": "Cannondale Topstone Carbon 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/4/2417_1_thumb_h700_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-topstone-carbon-4"
+  },
+  {
+    "naam": "Cannondale Synapse Carbon 3 L",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/f/ef30a9eb-f414-4d27-af51-aba3da277b9a.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-synapse-carbon-3-l"
+  },
+  {
+    "naam": "Cannondale Topstone 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/b/3b181bd5-8c36-413f-9604-51d59c3720dd_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-topstone-1"
+  },
+  {
+    "naam": "Cannondale Caad13 Disc Tiagra",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/2/c21_c13421u_caad13_disc_tgra_prh_pd.png",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-caad13-disc-tiagra"
+  },
+  {
+    "naam": "Scott Addict 20",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/b/7/b7301fff-2168-4253-acb1-047d4ba8f9b1_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-addict-20-2023"
+  },
+  {
+    "naam": "Scott Addict 30",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/3/e/3efff70c-e69e-4aaa-81d4-b54238d8a2c6_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-addict-30-2023"
+  },
+  {
+    "naam": "Cannondale Topstone 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/o/download_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-topstone-3"
+  },
+  {
+    "naam": "Cannondale Caad Optimo 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/2/c21_c14101m_caad_optimo_1_crd_pd_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-caad-optimo-1"
+  },
+  {
+    "naam": "Cannondale Topstone 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/2/c22_c15902u_topstone_4_blk_pd_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-topstone-4"
+  },
+  {
+    "naam": "Cannondale Caad Optimo 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/2/c21_c14201m_caad_optimo_2_bpl_pd_027d.png",
+    "product_url": "https://www.fietsleaseholland.nl/cannondale-caad-optimo-2"
+  },
+  {
+    "naam": "Trek Emonda ALR 6",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/r/r/rrd_tk3ema6_trek-emonda-alr-6-dnister-black-il.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-emonda-alr-6"
+  },
+  {
+    "naam": "Trek Domane SL 5 Gen 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/5/3/53b43ae2-28d0-4f57-b03c-0dac7ac7e950_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-domane-sl-5-gen-4"
+  },
+  {
+    "naam": "Trek Domane AL 5 Disc",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/1/116266_1_b.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-domane-al-5-disc"
+  },
+  {
+    "naam": "Trek Emonda ALR 5 Disc",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/m/emonda-alr-5-trek-black_720x720-fill.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-emonda-alr-5-disc"
+  },
+  {
+    "naam": "Trek Domane Al 2 Gen 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/1/41c38946-ac6e-40d2-860c-5775044ec625_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-domane-al-2"
+  },
+  {
+    "naam": "Scott Addict RC 10",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/5/458950e4-6abc-47ab-aee8-63cc16c0d1f1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/scott-addict-rc-10-2023"
+  },
+  {
+    "naam": "Trek Verve+ 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/7/e7c57709-7bdf-41dd-944d-f1d2fba3c35d_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-verve-2"
+  },
+  {
+    "naam": "Trek Allant+ 7",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/t/r/trek_allant_7_heren_blauw_2024_nieuw_2.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-allant-7"
+  },
+  {
+    "naam": "Trek District+ 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/5/5/550edb69-d14c-4eb4-ba9d-07102d862293_2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-district-4"
+  },
+  {
+    "naam": "Trek District+ 2",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/7/8/78539f25-5434-40b4-aafd-353a497519b9.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-district-2"
+  },
+  {
+    "naam": "Trek Verve+ 4",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/v/e/verve_4_dames_galactic_grey_2025_2__8.png",
+    "product_url": "https://www.fietsleaseholland.nl/trek-verve-4"
+  },
+  {
+    "naam": "Trek Verve+ 1",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/3/437ff70a-7f45-46b8-a477-0e1e68784cbd_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-verve-1"
+  },
+  {
+    "naam": "Trek District+ 3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/c/8c8547d7-8552-4a73-8219-c5dc5fde9b8f_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/trek-district-3"
+  },
+  {
+    "naam": "Pegasus Solero EVO 9",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/7/877360e9-38bf-4e25-9df3-17cb477aaa4e_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/pegasus-solero-evo-9"
+  },
+  {
+    "naam": "Pegasus Ravenna EVO 8F",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/3/03a7d8b5-c680-4477-a585-a74d9baad25b_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/pegasus-ravenna-evo-8f"
+  },
+  {
+    "naam": "Pegasus Premio EVO 10",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/p/e/pegasus_premio_evo_10_2_1.png",
+    "product_url": "https://www.fietsleaseholland.nl/pegasus-premio-evo-10"
+  },
+  {
+    "naam": "Pegasus Savino EVO 12",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/p/e/pegasus_savino_evo_12_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/pegasus-savino-evo-12"
+  },
+  {
+    "naam": "Gazelle Medeo T10 HMB ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/9/e/9ee116a5-4dc4-4166-a965-893e518a31e8_2.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-medeo-t10"
+  },
+  {
+    "naam": "Gazelle Ultimate C5 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/d/fd5346a4-da85-4b08-ae4e-9b914e5ec216_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-ultimate-c5-hmb"
+  },
+  {
+    "naam": "Gazelle HeavyDuty C5 HMB ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/6/a631f2fc-9380-4299-a42d-98bb25cfd3ba_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-heavyduty-c5-hmb"
+  },
+  {
+    "naam": "Gazelle HeavydutyNL C7 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/e/de02f7bd-5a3c-436d-abfd-ae1ef7ce9793_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-heavyduty-c7"
+  },
+  {
+    "naam": "Gazelle Medeo T9 HMB ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/7/279de599-e218-4e29-bea4-1b34825e0e2d_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-medeo-t9-hmb"
+  },
+  {
+    "naam": "Gazelle Ultimate C380 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/f/df274831-d0cb-4523-b4b9-234e18c77a20.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-ultimate-c380-hmb"
+  },
+  {
+    "naam": "Gazelle Grenoble C5 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/4/849d4c2b-eee3-4a81-85a3-1c2d101f9c0c_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-grenoble-c5-hmb"
+  },
+  {
+    "naam": "Gazelle Ultimate T10 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/5/05f7f43d-fcbe-4204-8df2-3b204072cab0.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-ultimate-t10-hmb"
+  },
+  {
+    "naam": "Tenways CGO600",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/4/3/4365f323-87e3-4eaf-8527-e0f354d2e60c_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-cgo600"
+  },
+  {
+    "naam": "Gazelle Chamonix C5 HMS",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/d/dde7af2c-1822-4446-97a5-0c4c3cf93717_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-chamonix-c5-hms"
+  },
+  {
+    "naam": "Gazelle Bloom C7",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/g/a/gazelle_bloom_c7_dames_zwart_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-bloom-c7"
+  },
+  {
+    "naam": "Tenways AGO X",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/g/ago_x_starlight_silver-1.png",
+    "product_url": "https://www.fietsleaseholland.nl/tenways-ago-x"
+  },
+  {
+    "naam": "Gazelle Avignon C380 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/a/fa140b78-7af6-4c81-ad19-b16fb01dff27_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-avignon-c380-hmb"
+  },
+  {
+    "naam": "Gazelle Orange C8 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/d/ed0dde0f-88c5-4bf9-9818-0bb962da5f97_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-orange-c8-hmb-connect"
+  },
+  {
+    "naam": "Gazelle Esprit T3",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/i/m/image_-_2024-08-23t093025.767_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-esprit-t3"
+  },
+  {
+    "naam": "Gazelle Avignon C8 HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/c/8c57473a-9bc8-49f7-b8af-783347fb16c6_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-avignon-c8-hmb"
+  },
+  {
+    "naam": "Gazelle Chamonix C8",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/g/a/gazelle_chamonix_c8_2024_matgroen_a_2__1.png",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-chamonix-c8"
+  },
+  {
+    "naam": "Gazelle Paris C7 HMB Smart",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/0/c0d4ad74-41eb-4792-8eff-8d7b849aedeb_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-paris-c7-hmb"
+  },
+  {
+    "naam": "Gazelle Orange C7+",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/g/a/gazelle_orange_c7_heren_grijs_2.png",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-orange-c7"
+  },
+  {
+    "naam": "Gazelle Ultimate C8+ HMB",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/d/8/d88faabe-2e85-431b-80dd-35345bc4ec6e_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/gazelle-ultimate-c8-hmb-belt"
+  },
+  {
+    "naam": "Huyser Maleo",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/2/c/2ce0fdf9-b00a-4dfe-ae7e-f62db5e1e912.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/huyser-maleo"
+  },
+  {
+    "naam": "Huyser Domaso",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/1/0/1023becc-fac7-4695-aded-56bb7ab0280c.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/huyser-domaso"
+  },
+  {
+    "naam": "Cortina E-U4 Transport Voorwielmotor",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/o/cortina_e-u4_transport_rb7_dames_zwart_zijaanzicht.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-e-u4-transport-36v-fm-7v"
+  },
+  {
+    "naam": "Cortina E-Nite",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/c/1/c1428cf0-e5a9-40f9-9254-da232ce86f53.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/cortina-e-nite-n7"
+  },
+  {
+    "naam": "Batavus Altura E-go Power",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/2/f2bb1f92-6954-48d8-938b-65c2ad67ae4e.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-altura-e-go-power"
+  },
+  {
+    "naam": "Batavus Altura E-go Power Pro ",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/a/l/altura_e-go_power_pro-31.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-altura-e-go-power-pro"
+  },
+  {
+    "naam": "Sparta A-Lane Energy",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/p/sparta_a_lane_grijs.png",
+    "product_url": "https://www.fietsleaseholland.nl/sparta-a-lane-energy-f8e"
+  },
+  {
+    "naam": "Sparta C-Grid Energy Smart",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/8/a/8ac991cd-3461-45c2-81ba-7a1b7b1a3842.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sparta-c-grid-energy"
+  },
+  {
+    "naam": "Sparta C-Grid Ultra",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/0/8/086097e4-3782-42e9-85be-abe2253510bd_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sparta-c-grid-ultra"
+  },
+  {
+    "naam": "Batavus Finez E-go Power Smart",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/e/y/eyjidwnrzxqioijmdnmtchjvzhvjdglvbiisimtlesi6invwbg9hzhncl2jhdgf2dxmtzwxla3ryaxnjagutzmlldhnlblwvrmluzxogrs1nbybqb3dlciaymfwvqmf0yxz1cy1gaw5lei1flwdvlvbvd2vylujfuzmtwndhcnqtrgftzxmtrwxla3ryaxnjagvgawv0c2vulmpwzyisim_1.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/batavus-finez-e-go-power"
+  },
+  {
+    "naam": "Sparta C-Grid Fit",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/s/p/sparta_beige.png",
+    "product_url": "https://www.fietsleaseholland.nl/sparta-c-grid-fit"
+  },
+  {
+    "naam": "Sparta A-Shine Ultra M5B",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/5/a/5adfb55c-35ef-4f65-81dc-36b4890e9706_1.jpeg",
+    "product_url": "https://www.fietsleaseholland.nl/sparta-a-shine-ultra-m5b"
+  },
+  {
+    "naam": "Sparta A-Shine Fit M7B",
+    "foto_url": "https://backend.fietsleaseholland.nl/media/catalog/product/cache/854fb2337cb48f03c4c62f465bbd556c/f/i/fit-28.jpg",
+    "product_url": "https://www.fietsleaseholland.nl/sparta-a-shine-fit-m7b"
+  }
+]
