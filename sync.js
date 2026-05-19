@@ -97,6 +97,8 @@ async function sync() {
   });
 
   const [rows] = await conn.query("SELECT * FROM klanten_data");
+  const [factuurRows] = await conn.query("SELECT * FROM facturen");
+  const [svcRows] = await conn.query("SELECT * FROM service_meldingen");
   await conn.end();
 
   const records = rows.map((row) => ({
@@ -151,6 +153,52 @@ async function sync() {
     );
   }
   console.log(`\nKlaar! ${updates.length} contracten bijgewerkt met foto_url.`);
+
+  // 4. Facturen synchroniseren
+  console.log("\nStap 4: Facturen synchroniseren vanuit MySQL...");
+  const facturen = factuurRows.map((row) => ({
+    contractnummer: row.contractnummer,
+    email:          row.email,
+    periode:        row.periode,
+    factuurdatum:   formatDate(row.factuurdatum),
+    bedrag:         row.bedrag,
+    status:         row.status,           // 'paid' of 'outstanding'
+    factuur_url:    row.factuur_url || null,
+  }));
+
+  const { error: delFact } = await supabase.from("facturen").delete().neq("id", 0);
+  if (delFact) { console.error("Verwijder facturen fout:", delFact.message); return; }
+
+  if (facturen.length > 0) {
+    const { error: insFact } = await supabase.from("facturen").insert(facturen);
+    if (insFact) { console.error("Insert facturen fout:", insFact.message); return; }
+  }
+  console.log(`${facturen.length} facturen gesynchroniseerd`);
+
+  // 5. Service meldingen synchroniseren
+  console.log("\nStap 5: Service meldingen synchroniseren vanuit MySQL...");
+  const meldingen = svcRows.map((row) => ({
+    id:             row.id,
+    contractnummer: row.contractnummer,
+    email:          row.email,
+    categorie:      row.categorie,
+    omschrijving:   row.omschrijving,
+    status:         row.status,           // 'submitted','assigned','in_progress','completed'
+    locatie:        row.locatie || null,
+    aanmaakdatum:   formatDate(row.aanmaakdatum),
+    tijdlijn:       typeof row.tijdlijn === 'string' ? JSON.parse(row.tijdlijn) : row.tijdlijn,
+  }));
+
+  const { error: delSvc } = await supabase.from("service_meldingen").delete().neq("id", '');
+  if (delSvc) { console.error("Verwijder meldingen fout:", delSvc.message); return; }
+
+  if (meldingen.length > 0) {
+    const { error: insSvc } = await supabase.from("service_meldingen").insert(meldingen);
+    if (insSvc) { console.error("Insert meldingen fout:", insSvc.message); return; }
+  }
+  console.log(`${meldingen.length} service meldingen gesynchroniseerd`);
+
+  console.log("\n✓ Sync volledig afgerond.");
 }
 
 sync().catch((e) => console.error("Sync fout:", e.message));
