@@ -38,8 +38,16 @@ async function koppel() {
   const fietsen = JSON.parse(fs.readFileSync('fotos.json', 'utf8'));
   console.log(`${fietsen.length} fietsen geladen uit fotos.json`);
 
-  const { data: contracten, error } = await supabase.from('contracten').select('id, merk, model, foto_url');
-  if (error) { console.error('Supabase fout:', error.message); return; }
+  const contracten = [];
+  let from = 0;
+  const PAGE = 1000;
+  while (true) {
+    const { data, error } = await supabase.from('contracten').select('id, merk, model, foto_url').range(from, from + PAGE - 1);
+    if (error) { console.error('Supabase fout:', error.message); return; }
+    contracten.push(...data);
+    if (data.length < PAGE) break;
+    from += PAGE;
+  }
   console.log(`${contracten.length} contracten opgehaald uit Supabase\n`);
 
   let gevonden = 0, niets = 0, updates = [];
