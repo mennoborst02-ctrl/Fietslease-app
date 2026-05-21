@@ -11,7 +11,9 @@
 <link rel="manifest" href="/manifest.json">
 <link rel="apple-touch-icon" href="/icon-180.png">
 <title>Fietslease Holland</title>
-<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://puzxtiqtoipsqhavocez.supabase.co">
+<link rel="dns-prefetch" href="https://puzxtiqtoipsqhavocez.supabase.co">
 <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
 <style>
 *{box-sizing:border-box;margin:0;padding:0}
@@ -175,9 +177,7 @@ const S = {sc:'login', p:{}, stk:[], authMode:'login', invFilter:'all', faqTab:'
 sb.auth.onAuthStateChange(async (event, session) => {
   if (session?.user) {
     USER = session.user;
-    if (event !== 'INITIAL_SESSION') {
-      toonLoader('Contracten ophalen...');
-    }
+    toonLoader('Contracten ophalen...');
     await laadContracten();
   } else {
     USER = null;
