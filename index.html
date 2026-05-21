@@ -187,7 +187,39 @@ sb.auth.onAuthStateChange(async (event, session) => {
   }
 });
 
+const CACHE_KEY = () => `flh_contracten_${USER?.email}`;
+
+function leesCache() {
+  try {
+    const raw = localStorage.getItem(CACHE_KEY());
+    if (!raw) return null;
+    const { data, ts } = JSON.parse(raw);
+    // Cache maximaal 24 uur geldig
+    if (Date.now() - ts > 86400000) { localStorage.removeItem(CACHE_KEY()); return null; }
+    return data;
+  } catch { return null; }
+}
+
+function schrijfCache(data) {
+  try { localStorage.setItem(CACHE_KEY(), JSON.stringify({ data, ts: Date.now() })); } catch {}
+}
+
 async function laadContracten() {
+  // Toon gecachede data direct als die beschikbaar is
+  const cache = leesCache();
+  if (cache && cache.length > 0) {
+    CONTRACTEN = cache;
+    IDX = 0;
+    S.sc = 'home';
+    S.stk = [];
+    verbergLoader();
+    R();
+    // Haal verse data op de achtergrond op
+    verversContracten();
+    return;
+  }
+
+  // Geen cache: normaal laden met laadbalk
   try {
     const { data, error } = await Promise.race([
       sb.from('contracten').select('*').eq('email', USER.email).order('startdatum', {ascending: false}),
@@ -195,6 +227,7 @@ async function laadContracten() {
     ]);
     if (error) throw error;
     CONTRACTEN = data || [];
+    schrijfCache(CONTRACTEN);
   } catch(e) {
     verbergLoader();
     toast('Contracten laden mislukt: ' + e.message);
@@ -205,6 +238,22 @@ async function laadContracten() {
   S.stk = [];
   verbergLoader();
   R();
+}
+
+async function verversContracten() {
+  try {
+    const { data, error } = await Promise.race([
+      sb.from('contracten').select('*').eq('email', USER.email).order('startdatum', {ascending: false}),
+      new Promise((_, rej) => setTimeout(() => rej(new Error('timeout')), 10000))
+    ]);
+    if (error || !data) return;
+    schrijfCache(data);
+    // Alleen opnieuw renderen als data daadwerkelijk veranderd is
+    if (JSON.stringify(data) !== JSON.stringify(CONTRACTEN)) {
+      CONTRACTEN = data;
+      R();
+    }
+  } catch {}
 }
 
 async function doLogin(email, ww) {
@@ -232,6 +281,7 @@ async function doRegister(email, ww) {
 }
 
 async function uitloggen() {
+  try { localStorage.removeItem(CACHE_KEY()); } catch {}
   await sb.auth.signOut();
   CONTRACTEN = []; USER = null; IDX = 0;
   S.sc = 'login'; S.stk = []; S.authMode = 'login';
