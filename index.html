@@ -457,30 +457,54 @@ function handleAuth() {
    ============================================ */
 function scKoppel() {
   return `
-<div style="background:var(--blk);padding:44px 24px 32px;display:flex;flex-direction:column;align-items:center">
-  <svg viewBox="0 0 250 91" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:44px;width:auto;display:block;margin-bottom:28px">
+<div style="background:var(--blk);padding:52px 28px 36px;display:flex;flex-direction:column;align-items:center;position:relative;overflow:hidden">
+  <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 60% 0%,rgba(102,153,51,.35) 0%,transparent 70%);pointer-events:none"></div>
+  <svg viewBox="0 0 250 91" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:38px;width:auto;display:block;margin-bottom:32px;position:relative">
     <use xlink:href="#flh-logo"/>
   </svg>
-  <div style="font-family:var(--fh);font-size:22px;font-weight:800;color:#fff;margin-bottom:8px;text-align:center">Contract koppelen</div>
-  <div style="font-size:13px;color:rgba(255,255,255,.6);text-align:center;line-height:1.5">Vul je contractnummer en postcode in om je leasefiets te koppelen aan dit account.</div>
+  <div style="width:56px;height:56px;border-radius:16px;background:rgba(102,153,51,.2);border:1.5px solid rgba(102,153,51,.4);display:flex;align-items:center;justify-content:center;margin-bottom:18px;position:relative">
+    <svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="var(--g)" stroke-width="2" stroke-linecap="round">
+      <circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/>
+      <path d="M6 18l3.5-9 5.5 3L17 5 19.5 18"/>
+    </svg>
+  </div>
+  <div style="font-family:var(--fh);font-size:23px;font-weight:800;color:#fff;margin-bottom:10px;text-align:center;position:relative">Welkom bij FLH</div>
+  <div style="font-size:13.5px;color:rgba(255,255,255,.65);text-align:center;line-height:1.6;max-width:280px;position:relative">Je account is aangemaakt. Koppel nu je leasecontract om toegang te krijgen tot al je gegevens.</div>
 </div>
-<div style="padding:24px 20px;background:var(--bg);flex:1">
+<div style="padding:28px 20px 24px;background:var(--bg);flex:1">
+  <div style="background:var(--wh);border-radius:16px;border:1px solid var(--b1);padding:20px;margin-bottom:20px;display:flex;gap:14px;align-items:flex-start">
+    <div style="width:36px;height:36px;border-radius:10px;background:var(--gsel);display:flex;align-items:center;justify-content:center;flex-shrink:0">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="var(--g)" stroke-width="2" stroke-linecap="round"><rect x="5" y="2" width="14" height="20" rx="2"/><path d="M9 7h6M9 11h6M9 15h4"/></svg>
+    </div>
+    <div>
+      <div style="font-family:var(--fh);font-size:13px;font-weight:700;color:var(--blk);margin-bottom:3px">Waar vind ik mijn contractnummer?</div>
+      <div style="font-size:12px;color:var(--gr);line-height:1.5">Je contractnummer staat in de welkomstmail van Fietslease Holland. Het begint met <span style="font-weight:700;color:var(--blk)">FLH</span> gevolgd door cijfers.</div>
+    </div>
+  </div>
   <div id="koppel-err" class="err"></div>
   <div class="fld">
     <div class="flbl">Contractnummer</div>
-    <input class="inp" id="koppel-nr" placeholder="bijv. FLH230001" autocomplete="off" style="text-transform:uppercase"
+    <input class="inp" id="koppel-nr" placeholder="FLH230001" autocomplete="off" style="text-transform:uppercase;font-weight:600;letter-spacing:.5px"
       oninput="this.value=this.value.toUpperCase()"
       onkeydown="if(event.key==='Enter')document.getElementById('koppel-pc').focus()"/>
   </div>
   <div class="fld">
     <div class="flbl">Postcode</div>
-    <input class="inp" id="koppel-pc" placeholder="bijv. 1234AB" autocomplete="off" style="text-transform:uppercase"
+    <input class="inp" id="koppel-pc" placeholder="1234AB" autocomplete="off" style="text-transform:uppercase;font-weight:600;letter-spacing:.5px"
       oninput="this.value=this.value.toUpperCase().replace(/\\s/g,'')"
       onkeydown="if(event.key==='Enter')koppelContract()"/>
   </div>
-  <button class="btn bp" onclick="koppelContract()" style="margin-top:8px">Contract koppelen</button>
-  <div style="text-align:center;margin-top:16px">
-    <button onclick="uitloggen()" style="font-size:12px;font-weight:600;color:var(--gr2);background:none;border:none;cursor:pointer;font-family:var(--fh)">Uitloggen</button>
+  <button class="btn bp" onclick="koppelContract()" style="margin-top:4px;font-size:15px;padding:14px">
+    <span style="display:flex;align-items:center;justify-content:center;gap:8px">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2" stroke-linecap="round"><path d="M10 13a5 5 0 007.54.54l3-3a5 5 0 00-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 00-7.54-.54l-3 3a5 5 0 007.07 7.07l1.71-1.71"/></svg>
+      Contract koppelen
+    </span>
+  </button>
+  <div style="text-align:center;margin-top:20px;padding-top:20px;border-top:1px solid var(--b1)">
+    <div style="font-size:12px;color:var(--gr);margin-bottom:8px">Heb je hulp nodig?</div>
+    <a href="tel:0859022111" style="font-size:13px;font-weight:700;color:var(--g);text-decoration:none;font-family:var(--fh)">085-9022111</a>
+    <span style="color:var(--b1);margin:0 8px">·</span>
+    <button onclick="uitloggen()" style="font-size:13px;font-weight:600;color:var(--gr2);background:none;border:none;cursor:pointer;font-family:var(--fh)">Uitloggen</button>
   </div>
 </div>`;
 }
