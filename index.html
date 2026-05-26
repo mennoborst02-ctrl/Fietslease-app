@@ -234,7 +234,11 @@ async function laadContracten() {
     return;
   }
   IDX = 0;
-  S.sc = 'home';
+  if (CONTRACTEN.length === 0) {
+    S.sc = 'koppel';
+  } else {
+    S.sc = 'home';
+  }
   S.stk = [];
   verbergLoader();
   R();
@@ -341,10 +345,10 @@ function navH() {
 
 function R() {
   const sc=document.getElementById('sc'), bn=document.getElementById('bn');
-  const noNav=['login'].includes(S.sc);
+  const noNav=['login','koppel'].includes(S.sc);
   bn.className=noNav?'bnav off':'bnav';
   if(!noNav) bn.innerHTML=navH();
-  const M={login:scLogin,home:scHome,contract:scCon,invoices:scInv,bike:scBike,svc_list:scSvcList,svc_new:scSvcNew,svc_detail:scSvcDet,faq:scFaq,profile:scPro,contact:scContact,persoonsgegevens:scPersoonsgegevens,wachtwoord:scWachtwoordWijzigen};
+  const M={login:scLogin,koppel:scKoppel,home:scHome,contract:scCon,invoices:scInv,bike:scBike,svc_list:scSvcList,svc_new:scSvcNew,svc_detail:scSvcDet,faq:scFaq,profile:scPro,contact:scContact,persoonsgegevens:scPersoonsgegevens,wachtwoord:scWachtwoordWijzigen};
   const isChat = S.sc==='faq' && S.faqTab==='chat';
   sc.className = isChat ? 'sc chat' : 'sc';
   sc.innerHTML=(M[S.sc]||scHome)();
@@ -446,6 +450,75 @@ function handleAuth() {
   }else{
     doLogin(em,pw);
   }
+}
+
+/* ============================================
+   KOPPEL CONTRACT
+   ============================================ */
+function scKoppel() {
+  return `
+<div style="background:var(--blk);padding:44px 24px 32px;display:flex;flex-direction:column;align-items:center">
+  <svg viewBox="0 0 250 91" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" style="height:44px;width:auto;display:block;margin-bottom:28px">
+    <use xlink:href="#flh-logo"/>
+  </svg>
+  <div style="font-family:var(--fh);font-size:22px;font-weight:800;color:#fff;margin-bottom:8px;text-align:center">Contract koppelen</div>
+  <div style="font-size:13px;color:rgba(255,255,255,.6);text-align:center;line-height:1.5">Vul je contractnummer en postcode in om je leasefiets te koppelen aan dit account.</div>
+</div>
+<div style="padding:24px 20px;background:var(--bg);flex:1">
+  <div id="koppel-err" class="err"></div>
+  <div class="fld">
+    <div class="flbl">Contractnummer</div>
+    <input class="inp" id="koppel-nr" placeholder="bijv. FLH230001" autocomplete="off" style="text-transform:uppercase"
+      oninput="this.value=this.value.toUpperCase()"
+      onkeydown="if(event.key==='Enter')document.getElementById('koppel-pc').focus()"/>
+  </div>
+  <div class="fld">
+    <div class="flbl">Postcode</div>
+    <input class="inp" id="koppel-pc" placeholder="bijv. 1234AB" autocomplete="off" style="text-transform:uppercase"
+      oninput="this.value=this.value.toUpperCase().replace(/\\s/g,'')"
+      onkeydown="if(event.key==='Enter')koppelContract()"/>
+  </div>
+  <button class="btn bp" onclick="koppelContract()" style="margin-top:8px">Contract koppelen</button>
+  <div style="text-align:center;margin-top:16px">
+    <button onclick="uitloggen()" style="font-size:12px;font-weight:600;color:var(--gr2);background:none;border:none;cursor:pointer;font-family:var(--fh)">Uitloggen</button>
+  </div>
+</div>`;
+}
+
+async function koppelContract() {
+  const nr = document.getElementById('koppel-nr')?.value.trim().toUpperCase();
+  const pc = document.getElementById('koppel-pc')?.value.trim().toUpperCase().replace(/\s/g,'');
+  verbergFout('koppel-err');
+
+  if (!nr || !pc) { toonFout('koppel-err', 'Vul beide velden in.'); return; }
+
+  toonLoader('Contract opzoeken...');
+
+  const { data, error } = await sb.from('contracten')
+    .select('id, contractnummer, email')
+    .eq('contractnummer', nr)
+    .eq('postcode', pc)
+    .maybeSingle();
+
+  if (error || !data) {
+    verbergLoader();
+    toonFout('koppel-err', 'Geen contract gevonden met dit contractnummer en deze postcode. Controleer je gegevens of neem contact op via 085-9022111.');
+    return;
+  }
+
+  const { error: updErr } = await sb.from('contracten')
+    .update({ email: USER.email })
+    .eq('id', data.id);
+
+  if (updErr) {
+    verbergLoader();
+    toonFout('koppel-err', 'Koppelen mislukt. Probeer het opnieuw of neem contact op.');
+    return;
+  }
+
+  // Cache wissen zodat verse data geladen wordt
+  try { localStorage.removeItem(CACHE_KEY()); } catch {}
+  await laadContracten();
 }
 
 /* ============================================
