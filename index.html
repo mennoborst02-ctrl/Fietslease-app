@@ -348,7 +348,7 @@ function R() {
   const noNav=['login','koppel'].includes(S.sc);
   bn.className=noNav?'bnav off':'bnav';
   if(!noNav) bn.innerHTML=navH();
-  const M={login:scLogin,koppel:scKoppel,home:scHome,contract:scCon,invoices:scInv,bike:scBike,svc_list:scSvcList,svc_new:scSvcNew,svc_detail:scSvcDet,faq:scFaq,profile:scPro,contact:scContact,persoonsgegevens:scPersoonsgegevens,wachtwoord:scWachtwoordWijzigen};
+  const M={login:scLogin,koppel:scKoppel,home:scHome,contract:scCon,invoices:scInv,bike:scBike,svc_list:scSvcList,svc_new:scSvcNew,svc_detail:scSvcDet,faq:scFaq,profile:scPro,contact:scContact,persoonsgegevens:scPersoonsgegevens,wachtwoord:scWachtwoordWijzigen,privacy:scPrivacy};
   const isChat = S.sc==='faq' && S.faqTab==='chat';
   sc.className = isChat ? 'sc chat' : 'sc';
   sc.innerHTML=(M[S.sc]||scHome)();
@@ -888,6 +888,7 @@ function scPro() {
   ${CONTRACTEN.map((ct,i)=>`<div class="mit" onclick="IDX=${i};go('contract')"><div class="mic" style="background:var(--gsel);color:var(--g)">${ico('<circle cx="6" cy="18" r="3"/><circle cx="18" cy="18" r="3"/><path d="M6 18l3.5-9 5.5 3L17 5 19.5 18"/>',17)}</div><span class="mitt">${ct.merk} ${ct.model}</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>`).join('')}`:''}
   <div style="font-size:11px;font-weight:700;color:var(--gr2);text-transform:uppercase;letter-spacing:.5px;margin:${CONTRACTEN.length>1?'18px':0} 0 10px;font-family:var(--fh)">Account</div>
   <div class="mit" onclick="go('persoonsgegevens')"><div class="mic" style="background:var(--gsel);color:var(--g)">${ico('<circle cx="12" cy="8" r="4"/><path d="M4 20c0-4 3.6-7 8-7s8 3 8 7"/>',17)}</div><span class="mitt">Persoonlijke gegevens</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>
+  <div class="mit" onclick="go('privacy')"><div class="mic" style="background:var(--b3);color:var(--gr)">${ico('<path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>',17)}</div><span class="mitt">Privacyverklaring</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>
   <div class="mit" onclick="go('wachtwoord')"><div class="mic" style="background:var(--gsel);color:var(--g)">${ico('<rect x="5" y="11" width="14" height="10" rx="2"/><path d="M8 11V7a4 4 0 018 0v4"/>',17)}</div><span class="mitt">Wachtwoord wijzigen</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>
   <div class="mit" onclick="go('contact')"><div class="mic" style="background:#FEF3C7;color:#B45309">${ico('<path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07A19.5 19.5 0 013.07 9.81a19.79 19.79 0 01-3.07-8.63A2 2 0 012 0h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L6.09 7.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 15z"/>',17)}</div><span class="mitt">Contact & diensten</span><div class="chv">${ico('<path d="M9 18l6-6-6-6"/>',15)}</div></div>
   <button style="background:var(--reb);color:var(--re);border:2px solid #FECACA;border-radius:12px;padding:14px 20px;font-size:14px;font-weight:700;width:100%;margin-top:18px;cursor:pointer;font-family:var(--fh)" onclick="uitloggen()">Uitloggen</button>
@@ -897,9 +898,42 @@ function scPro() {
 
 
 /* ============================================
+   PRIVACY
+   ============================================ */
+function scPrivacy() {
+  return `<div class="hdr"><button class="bk" onclick="back()"><svg viewBox="0 0 16 16" fill="none" stroke="var(--blk)" stroke-width="2" stroke-linecap="round"><path d="M10 4l-6 4 6 4"/></svg></button><div class="hdrt">Privacyverklaring</div></div>
+<div style="padding:20px 18px;background:var(--bg)">
+  <div class="card">
+    <div class="card-t">Welke gegevens verzamelen wij?</div>
+    <p style="font-size:13px;color:var(--gr);line-height:1.65">De Fietslease Holland app verwerkt de volgende persoonsgegevens:</p>
+    <ul style="font-size:13px;color:var(--gr);line-height:1.9;margin-top:8px;padding-left:18px">
+      <li>Naam en e-mailadres</li>
+      <li>Telefoonnummer</li>
+      <li>Contractgegevens (contractnummer, looptijd, maandbedrag)</li>
+      <li>Fietsgegevens (merk, model, framenummer)</li>
+    </ul>
+  </div>
+  <div class="card">
+    <div class="card-t">Waar wordt de data opgeslagen?</div>
+    <p style="font-size:13px;color:var(--gr);line-height:1.65">Je gegevens worden opgeslagen via <strong style="color:var(--blk)">Supabase</strong>, een beveiligde clouddienst waarvan de servers zich in de Europese Unie (Frankfurt, Duitsland) bevinden. De opslag voldoet aan de AVG (Algemene Verordening Gegevensbescherming).</p>
+  </div>
+  <div class="card">
+    <div class="card-t">AI-assistent</div>
+    <p style="font-size:13px;color:var(--gr);line-height:1.65">De chatfunctie in deze app maakt gebruik van <strong style="color:var(--blk)">Anthropic Claude</strong>, een AI-taalmodel. Berichten die je stuurt worden verwerkt via de servers van Anthropic. Stuur geen gevoelige persoonlijke gegevens via de chat.</p>
+  </div>
+  <div class="card">
+    <div class="card-t">Jouw rechten</div>
+    <p style="font-size:13px;color:var(--gr);line-height:1.65">Je hebt het recht om je gegevens in te zien, te corrigeren of te laten verwijderen. Neem hiervoor contact op via:</p>
+    <a href="mailto:klantenservice@fietsleaseholland.nl" style="display:inline-block;margin-top:10px;font-size:13px;font-weight:700;color:var(--g);font-family:var(--fh);text-decoration:none">klantenservice@fietsleaseholland.nl</a>
+  </div>
+  <div style="height:14px"></div>
+</div>`;
+}
+
+/* ============================================
    CHAT
    ============================================ */
-let chatHistory = [{r:'bot', t:'Hallo! Ik ben de assistent van Fietslease Holland. Stel gerust een vraag over uw contract, verzekering of service.'}];
+let chatHistory = [{r:'bot', t:'Hallo! Ik ben de AI-assistent van Fietslease Holland. Je chat met een geautomatiseerd systeem, niet met een medewerker. Stel gerust een vraag over je contract, verzekering of service.'}];
 
 function scChat() {
   const c = C();
@@ -941,7 +975,7 @@ function scChat() {
       <span style="font-size:11px;font-weight:500;color:var(--gr)">Online</span>
     </div>
   </div>
-  <button onclick="chatHistory=[{r:'bot',t:'Hallo! Ik ben de assistent van Fietslease Holland. Stel gerust een vraag.'}];R()" style="font-size:11px;font-weight:600;color:var(--gr2);background:none;border:1px solid var(--b1);border-radius:20px;padding:4px 10px;cursor:pointer;font-family:var(--fh)">Wis</button>
+  <button onclick="chatHistory=[{r:'bot',t:'Hallo! Ik ben de AI-assistent van Fietslease Holland. Je chat met een geautomatiseerd systeem, niet met een medewerker. Stel gerust een vraag over je contract, verzekering of service.'}];R()" style="font-size:11px;font-weight:600;color:var(--gr2);background:none;border:1px solid var(--b1);border-radius:20px;padding:4px 10px;cursor:pointer;font-family:var(--fh)">Wis</button>
 </div>
 <div id="chatb" style="flex:1;min-height:0;overflow-y:auto;background:var(--bg);padding:16px 14px;display:flex;flex-direction:column;gap:12px;justify-content:flex-end">
   <div class="chat-date">Vandaag</div>
