@@ -121,8 +121,10 @@ async function sync() {
     batterij_wh: row.batterij_wh,
   }));
 
-  const { error: upsertError } = await supabase.from("contracten").upsert(records, { onConflict: "id" });
-  if (upsertError) { console.error("Upsert fout:", upsertError.message); return; }
+  const { error: deleteError } = await supabase.from("contracten").delete().lt("id", 9000);
+  if (deleteError) { console.error("Verwijder fout:", deleteError.message); return; }
+  const { error: insertError } = await supabase.from("contracten").insert(records);
+  if (insertError) { console.error("Insert fout:", insertError.message); return; }
   console.log(`${records.length} contracten gesynchroniseerd`);
 
   // 2. Scrape actuele fietsen van FLH website
@@ -188,9 +190,13 @@ async function sync() {
       aanmaakdatum:   formatDate(row.aanmaakdatum) || formatDate(new Date()),
       tijdlijn:       typeof row.tijdlijn === 'string' ? JSON.parse(row.tijdlijn) : (row.tijdlijn || null),
     }));
-    const { error: upsertTickets } = await supabase.from("tickets").upsert(tickets, { onConflict: "id" });
-    if (upsertTickets) { console.error("Upsert tickets fout:", upsertTickets.message); }
-    else { console.log(`${tickets.length} tickets gesynchroniseerd`); }
+    const { error: delTickets } = await supabase.from("tickets").delete().lt("id", 9000);
+    if (delTickets) { console.error("Verwijder tickets fout:", delTickets.message); }
+    else {
+      const { error: insTickets } = await supabase.from("tickets").insert(tickets);
+      if (insTickets) { console.error("Insert tickets fout:", insTickets.message); }
+      else { console.log(`${tickets.length} tickets gesynchroniseerd`); }
+    }
   } else {
     console.log("\nStap 5: Geen tickets gevonden in MySQL, overgeslagen.");
   }
