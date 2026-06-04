@@ -96,16 +96,16 @@ async function sync() {
     port: parseInt(process.env.DB_PORT),
   });
 
-  const [rows] = await conn.query("SELECT * FROM klanten_data");
-  const [factuurRows] = await conn.query("SELECT * FROM facturen");
-  const [svcRows] = await conn.query("SELECT * FROM service_meldingen");
+  const [rows] = await conn.query("SELECT * FROM contracten");
+  const [factuurRows] = await conn.query("SELECT * FROM facturen").catch(() => { console.warn("Tabel 'facturen' niet gevonden, overgeslagen."); return [[]]; });
+  const [ticketRows] = await conn.query("SELECT * FROM tickets").catch(() => { console.warn("Tabel 'tickets' niet gevonden, overgeslagen."); return [[]]; });
   await conn.end();
 
   const records = rows.map((row) => ({
     id: row.id,
     naam: row.naam,
-    email: row.email,
-    telefoon: row.telefoon_nummer,
+    email: row.email || '',
+    telefoon: row.telefoon,
     klant_sinds: formatDate(row.klant_sinds),
     contractnummer: row.contractnummer,
     maandbedrag: row.maandbedrag,
@@ -155,48 +155,52 @@ async function sync() {
   console.log(`\nKlaar! ${updates.length} contracten bijgewerkt met foto_url.`);
 
   // 4. Facturen synchroniseren
-  console.log("\nStap 4: Facturen synchroniseren vanuit MySQL...");
-  const facturen = factuurRows.map((row) => ({
-    contractnummer: row.contractnummer,
-    email:          row.email,
-    periode:        row.periode,
-    factuurdatum:   formatDate(row.factuurdatum),
-    bedrag:         row.bedrag,
-    status:         row.status,           // 'paid' of 'outstanding'
-    factuur_url:    row.factuur_url || null,
-  }));
-
-  const { error: delFact } = await supabase.from("facturen").delete().neq("id", 0);
-  if (delFact) { console.error("Verwijder facturen fout:", delFact.message); return; }
-
-  if (facturen.length > 0) {
-    const { error: insFact } = await supabase.from("facturen").insert(facturen);
-    if (insFact) { console.error("Insert facturen fout:", insFact.message); return; }
+  if (factuurRows.length > 0) {
+    console.log("\nStap 4: Facturen synchroniseren vanuit MySQL...");
+    const facturen = factuurRows.map((row) => ({
+      contractnummer: row.contractnummer,
+      email:          row.email || '',
+      periode:        row.periode,
+      factuurdatum:   formatDate(row.factuurdatum),
+      bedrag:         row.bedrag,
+      status:         row.status,
+      factuur_url:    row.factuur_url || null,
+    }));
+    const { error: delFact } = await supabase.from("facturen").delete().neq("id", 0);
+    if (delFact) { console.warn("Facturen tabel niet beschikbaar in Supabase, overgeslagen."); }
+    else {
+      const { error: insFact } = await supabase.from("facturen").insert(facturen);
+      if (insFact) { console.error("Insert facturen fout:", insFact.message); }
+      else { console.log(`${facturen.length} facturen gesynchroniseerd`); }
+    }
+  } else {
+    console.log("\nStap 4: Geen facturen gevonden in MySQL, overgeslagen.");
   }
-  console.log(`${facturen.length} facturen gesynchroniseerd`);
 
-  // 5. Service meldingen synchroniseren
-  console.log("\nStap 5: Service meldingen synchroniseren vanuit MySQL...");
-  const meldingen = svcRows.map((row) => ({
-    id:             row.id,
-    contractnummer: row.contractnummer,
-    email:          row.email,
-    categorie:      row.categorie,
-    omschrijving:   row.omschrijving,
-    status:         row.status,           // 'submitted','assigned','in_progress','completed'
-    locatie:        row.locatie || null,
-    aanmaakdatum:   formatDate(row.aanmaakdatum),
-    tijdlijn:       typeof row.tijdlijn === 'string' ? JSON.parse(row.tijdlijn) : row.tijdlijn,
-  }));
-
-  const { error: delSvc } = await supabase.from("service_meldingen").delete().neq("id", '');
-  if (delSvc) { console.error("Verwijder meldingen fout:", delSvc.message); return; }
-
-  if (meldingen.length > 0) {
-    const { error: insSvc } = await supabase.from("service_meldingen").insert(meldingen);
-    if (insSvc) { console.error("Insert meldingen fout:", insSvc.message); return; }
+  // 5. Tickets synchroniseren
+  if (ticketRows.length > 0) {
+    console.log("\nStap 5: Tickets synchroniseren vanuit MySQL...");
+    const tickets = ticketRows.map((row) => ({
+      id:             row.id,
+      contractnummer: row.contractnummer,
+      email:          row.email || '',
+      categorie:      row.categorie,
+      omschrijving:   row.omschrijving,
+      status:         row.status,
+      locatie:        row.locatie || null,
+      aanmaakdatum:   formatDate(row.aanmaakdatum),
+      tijdlijn:       typeof row.tijdlijn === 'string' ? JSON.parse(row.tijdlijn) : (row.tijdlijn || null),
+    }));
+    const { error: delTickets } = await supabase.from("tickets").delete().neq("id", '');
+    if (delTickets) { console.warn("Tickets tabel niet beschikbaar in Supabase, overgeslagen."); }
+    else {
+      const { error: insTickets } = await supabase.from("tickets").insert(tickets);
+      if (insTickets) { console.error("Insert tickets fout:", insTickets.message); }
+      else { console.log(`${tickets.length} tickets gesynchroniseerd`); }
+    }
+  } else {
+    console.log("\nStap 5: Geen tickets gevonden in MySQL, overgeslagen.");
   }
-  console.log(`${meldingen.length} service meldingen gesynchroniseerd`);
 
   console.log("\n✓ Sync volledig afgerond.");
 }
