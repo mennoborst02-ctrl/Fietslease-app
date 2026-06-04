@@ -184,15 +184,15 @@ async function sync() {
       id:             row.id,
       contractnummer: row.contractnummer,
       email:          row.email || '',
-      categorie:      row.categorie,
-      omschrijving:   row.omschrijving,
-      status:         row.status,
+      categorie:      row.categorie || 'Overig',
+      omschrijving:   row.omschrijving || '',
+      status:         row.status || 'Nieuw',
       locatie:        row.locatie || null,
-      aanmaakdatum:   formatDate(row.aanmaakdatum),
+      aanmaakdatum:   formatDate(row.aanmaakdatum) || formatDate(new Date()),
       tijdlijn:       typeof row.tijdlijn === 'string' ? JSON.parse(row.tijdlijn) : (row.tijdlijn || null),
     }));
-    const { error: delTickets } = await supabase.from("tickets").delete().neq("id", '');
-    if (delTickets) { console.warn("Tickets tabel niet beschikbaar in Supabase, overgeslagen."); }
+    const { error: delTickets } = await supabase.from("tickets").delete().gt("id", 0);
+    if (delTickets) { console.warn("Tickets tabel niet beschikbaar in Supabase, overgeslagen:", delTickets.message); }
     else {
       const { error: insTickets } = await supabase.from("tickets").insert(tickets);
       if (insTickets) { console.error("Insert tickets fout:", insTickets.message); }
