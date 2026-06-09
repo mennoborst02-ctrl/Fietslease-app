@@ -167,8 +167,9 @@ const sb = window.supabase.createClient(SB_URL, SB_KEY);
    STATE
    ============================================ */
 let CONTRACTEN = [];
-let IDX = 0; // actief contract index
+let IDX = 0;
 let USER = null;
+let SVC = null;
 const S = {sc:'login', p:{}, stk:[], authMode:'login', invFilter:'all', faqTab:'faq', faqCat:'all'};
 
 /* ============================================
@@ -287,7 +288,7 @@ async function doRegister(email, ww) {
 async function uitloggen() {
   try { localStorage.removeItem(CACHE_KEY()); } catch {}
   await sb.auth.signOut();
-  CONTRACTEN = []; USER = null; IDX = 0;
+  CONTRACTEN = []; USER = null; IDX = 0; SVC = null;
   S.sc = 'login'; S.stk = []; S.authMode = 'login';
   R();
 }
@@ -311,7 +312,25 @@ const toonFout = (id,t) => { const e=document.getElementById(id); if(e){e.textCo
 const verbergFout = id => { const e=document.getElementById(id); if(e)e.className='err'; };
 
 function sCh(s) {
-  return s==='completed'?`<span class="chip cg">Afgerond</span>`:s==='assigned'?`<span class="chip cg2">Toegewezen</span>`:s==='in_progress'?`<span class="chip ca">Bezig</span>`:`<span class="chip cn">Ingediend</span>`;
+  const done=['completed','Opgelost','Klaar','Afgerond','Uitgevoerd'];
+  const bezig=['in_progress','In behandeling'];
+  const ingepland=['assigned','Ingepland','Toegewezen'];
+  if(done.includes(s)) return `<span class="chip cg">Afgerond</span>`;
+  if(bezig.includes(s)) return `<span class="chip ca">Bezig</span>`;
+  if(ingepland.includes(s)) return `<span class="chip cg2">Ingepland</span>`;
+  return `<span class="chip cn">${s||'Nieuw'}</span>`;
+}
+function svcIsDone(s){return['completed','Opgelost','Klaar','Afgerond','Uitgevoerd','Niet uitgevoerd','Geannuleerd'].includes(s);}
+function fmtDatum(d){if(!d)return '';const m=['jan','feb','mrt','apr','mei','jun','jul','aug','sep','okt','nov','dec'];const dt=new Date(d);return `${dt.getDate()} ${m[dt.getMonth()]} ${dt.getFullYear()}`;}
+async function laadSvc() {
+  const nr = C()?.contractnummer; if(!nr) { SVC=[]; R(); return; }
+  const {data,error} = await sb.from('tickets').select('*').eq('contractnummer',nr).order('aanmaakdatum',{ascending:false});
+  SVC = error ? [] : (data||[]).map(r=>({
+    id: String(r.id), categorie: r.categorie||'Overig', omschrijving: r.omschrijving||'',
+    status: r.status||'Nieuw', locatie: r.locatie||'', datum: fmtDatum(r.aanmaakdatum),
+    tijdlijn: Array.isArray(r.tijdlijn)?r.tijdlijn:[{stap:'Ingediend',tijd:'',ok:true},{stap:'Toegewezen',tijd:'',ok:false},{stap:'In behandeling',tijd:'',ok:false},{stap:'Afgerond',tijd:'',ok:false}]
+  }));
+  R();
 }
 
 function toonContractKiezer() {
@@ -327,7 +346,7 @@ function toonContractKiezer() {
   el.className='modal-bg';
 }
 
-function kiesContract(i) { IDX=i; sluitModal(); S.sc='home'; R(); }
+function kiesContract(i) { IDX=i; SVC=null; sluitModal(); S.sc='home'; R(); }
 function sluitModal() { document.getElementById('contract-modal').className='modal-bg off'; }
 function closeModal(e) { if(e.target.id==='contract-modal') sluitModal(); }
 
@@ -744,12 +763,9 @@ function scBike() {
 /* ============================================
    SERVICE
    ============================================ */
-const DEMO_SVC = [
-  {id:'s2347',categorie:'Batterij / motor',omschrijving:'Batterij laadt niet volledig op',status:'assigned',locatie:'Bakker Fietsen',datum:'10 apr 2025',tijdlijn:[{stap:'Ingediend',tijd:'5 apr, 14:00',ok:true},{stap:'Toegewezen',tijd:'5 apr, 16:45',ok:true},{stap:'In behandeling',tijd:'',ok:false},{stap:'Afgerond',tijd:'',ok:false}]},
-  {id:'s2341',categorie:'Lekke band',omschrijving:'Achterwiel lek gereden',status:'completed',locatie:'Bakker Fietsen',datum:'28 mrt 2025',tijdlijn:[{stap:'Ingediend',tijd:'26 mrt, 10:00',ok:true},{stap:'Toegewezen',tijd:'26 mrt, 11:30',ok:true},{stap:'In behandeling',tijd:'28 mrt, 09:00',ok:true},{stap:'Afgerond',tijd:'28 mrt, 14:30',ok:true}]}
-];
 function scSvcList() {
-  const act=DEMO_SVC.filter(r=>r.status!=='completed'), done=DEMO_SVC.filter(r=>r.status==='completed');
+  if(SVC===null){laadSvc();return`<div class="hdr"><div class="hdrt">Mijn meldingen</div></div><div style="padding:40px;text-align:center;color:var(--gr)">Laden…</div>`;}
+  const act=SVC.filter(r=>!svcIsDone(r.status)), done=SVC.filter(r=>svcIsDone(r.status));
   return `<div class="hdr"><div class="hdrt">Mijn meldingen</div><button style="background:var(--g);color:#fff;border:2px solid var(--gd);border-radius:12px;padding:9px 16px;font-size:13px;font-weight:700;cursor:pointer;font-family:var(--fh)" onclick="go('svc_new')">+ Nieuw</button></div>
 <div style="padding:16px 18px;background:var(--bg)">
   ${act.length?`<div style="font-size:10px;font-weight:700;color:var(--gr2);text-transform:uppercase;letter-spacing:.5px;margin-bottom:10px;font-family:var(--fh)">Actief</div>`:''}
@@ -777,7 +793,7 @@ function scSvcNew() {
 </div>`;
 }
 function scSvcDet() {
-  const r=DEMO_SVC.find(x=>x.id===S.p.id)||DEMO_SVC[0];
+  const r=(SVC||[]).find(x=>x.id===S.p.id)||(SVC||[])[0]||{id:'',categorie:'',omschrijving:'',status:'',locatie:'',datum:'',tijdlijn:[]};
   return `<div class="hdr"><button class="bk" onclick="back()"><svg viewBox="0 0 16 16"><path d="M10 4l-6 4 6 4"/></svg></button><div class="hdrt">Melding #${r.id.replace('s','')}</div>${sCh(r.status)}</div>
 <div style="padding:16px 18px;background:var(--bg)">
   <div class="card"><div class="card-t">Details</div>
