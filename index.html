@@ -738,7 +738,7 @@ function scInv() {
    ============================================ */
 function scBike() {
   const b=C();
-  const foto=`<img src="${b.foto_url||'flh-fiets.png'}" style="width:100%;height:auto;border-radius:10px;border:1px solid var(--b1);display:block;margin-bottom:12px" alt="${b.merk} ${b.model}">`;
+  const foto=`<div style="background:#f4f4f4;border-radius:10px;border:1px solid var(--b1);margin-bottom:12px;overflow:hidden"><img src="${b.foto_url||'flh-fiets.png'}" style="width:100%;height:auto;display:block" alt="${b.merk} ${b.model}"></div>`;
   return `<div class="hdr"><button class="bk" onclick="back()"><svg viewBox="0 0 16 16"><path d="M10 4l-6 4 6 4"/></svg></button><div class="hdrt">Mijn fiets</div></div>
 <div style="background:var(--wh);padding:18px 20px 16px;border-bottom:1.5px solid var(--b2)">
   <div style="font-family:var(--fh);font-size:18px;font-weight:800;color:var(--blk);margin-bottom:4px">${b.merk} ${b.model}</div>
